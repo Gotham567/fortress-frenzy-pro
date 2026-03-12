@@ -6,6 +6,7 @@ const navItems = [
   { label: "Services", href: "#services" },
   { label: "Expertise", href: "#expertise" },
   { label: "Chiffres", href: "#stats" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -13,10 +14,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl" role="navigation" aria-label="Navigation principale">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center gap-2">
-          <Shield className="h-7 w-7 text-primary" />
+        <a href="#" className="flex items-center gap-2" aria-label="SentinelCyber - Accueil">
+          <Shield className="h-7 w-7 text-primary" aria-hidden="true" />
           <span className="text-lg font-bold tracking-tight text-foreground">
             SENTINEL<span className="text-primary">CYBER</span>
           </span>
@@ -40,7 +41,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-foreground">
+        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-foreground" aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"} aria-expanded={isOpen}>
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
       </div>
