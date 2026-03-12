@@ -2,17 +2,33 @@ import { Shield } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-border py-12">
+    <footer className="border-t border-border py-12" role="contentinfo">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
+        <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <div className="flex items-center gap-2">
-            <Shield className="h-5 w-5 text-primary" />
+            <Shield className="h-5 w-5 text-primary" aria-hidden="true" />
             <span className="text-sm font-bold text-foreground">
               SENTINEL<span className="text-primary">CYBER</span>
             </span>
           </div>
-          <p className="text-xs text-muted-foreground">
-            © 2026 SentinelCyber. Tous droits réservés. Cabinet français de cybersécurité.
+
+          <nav aria-label="Liens du pied de page" className="flex flex-wrap justify-center gap-6">
+            {[
+              { label: "Services", href: "#services" },
+              { label: "Expertise", href: "#expertise" },
+              { label: "FAQ", href: "#faq" },
+              { label: "Contact", href: "#contact" },
+            ].map((link) => (
+              <a key={link.label} href={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
+                {link.label}
+              </a>
+            ))}
+          </nav>
+
+          <p className="text-xs text-muted-foreground text-center">
+            © 2026 SentinelCyber. Tous droits réservés.
+            <br />
+            Cabinet français de cybersécurité à Paris.
           </p>
         </div>
       </div>
