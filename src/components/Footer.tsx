@@ -31,7 +31,7 @@ const Footer = () => {
                   {link.label}
                 </a>
               )
-            ))}
+            )}
           </nav>
 
           <p className="text-xs text-muted-foreground text-center">
