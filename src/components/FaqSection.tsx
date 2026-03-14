@@ -33,7 +33,7 @@ const faqs = [
       "Un audit de sécurité permet d'évaluer l'ensemble de votre posture de sécurité, de vérifier la conformité aux normes (ISO 27001, ANSSI, RGPD, NIS2) et d'identifier les axes d'amélioration prioritaires. C'est une étape essentielle pour protéger vos données sensibles et répondre aux exigences réglementaires de la directive NIS2.",
   },
   {
-    question: "Comment SentinelCyber intervient en cas d'incident de sécurité ?",
+    question: "Comment CyberConform intervient en cas d'incident de sécurité ?",
     answer:
       "Notre équipe SOC est disponible 24/7. En cas d'incident, nous intervenons rapidement pour contenir la menace, réaliser l'analyse forensique, éradiquer la compromission et mettre en place un plan de remédiation complet. Nous vous accompagnons également dans la communication de crise et les obligations de notification NIS2 et RGPD.",
   },
