@@ -15,6 +15,7 @@ const Footer = () => {
           <nav aria-label="Liens du pied de page" className="flex flex-wrap justify-center gap-6">
             {[
               { label: "Services", href: "#services" },
+              { label: "Conformité NIS2", href: "#conformite" },
               { label: "Expertise", href: "#expertise" },
               { label: "FAQ", href: "#faq" },
               { label: "Contact", href: "#contact" },

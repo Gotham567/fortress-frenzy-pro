@@ -4,8 +4,8 @@ import { Shield, Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Services", href: "#services" },
+  { label: "Conformité NIS2", href: "#conformite" },
   { label: "Expertise", href: "#expertise" },
-  { label: "Chiffres", href: "#stats" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
