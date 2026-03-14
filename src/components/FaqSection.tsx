@@ -20,7 +20,7 @@ const faqs = [
   {
     question: "Quelle est la différence entre conformité NIS2 et conformité RGPD ?",
     answer:
-      "Le RGPD (Règlement Général sur la Protection des Données) concerne la protection des données personnelles, tandis que la directive NIS2 porte sur la sécurité des réseaux et systèmes d'information. Les deux sont complémentaires : la mise en conformité RGPD protège les données de vos clients et employés, la conformité NIS2 sécurise votre infrastructure globale. SentinelCyber accompagne les entreprises sur les deux volets.",
+      "Le RGPD (Règlement Général sur la Protection des Données) concerne la protection des données personnelles, tandis que la directive NIS2 porte sur la sécurité des réseaux et systèmes d'information. Les deux sont complémentaires : la mise en conformité RGPD protège les données de vos clients et employés, la conformité NIS2 sécurise votre infrastructure globale. CyberConform accompagne les entreprises sur les deux volets.",
   },
   {
     question: "Qu'est-ce qu'un test d'intrusion (pentest) ?",
