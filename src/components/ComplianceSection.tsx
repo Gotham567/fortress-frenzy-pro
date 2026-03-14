@@ -18,7 +18,7 @@ const complianceItems = [
     icon: Scale,
     title: "Mise en conformité RGPD",
     description:
-      "Le Règlement Général sur la Protection des Données impose aux entreprises de garantir la sécurité des données personnelles. SentinelCyber vous accompagne dans votre mise en conformité RGPD avec une approche pragmatique adaptée aux PME et ETI.",
+      "Le Règlement Général sur la Protection des Données impose aux entreprises de garantir la sécurité des données personnelles. CyberConform vous accompagne dans votre mise en conformité RGPD avec une approche pragmatique adaptée aux PME et ETI.",
     points: [
       "Audit RGPD et cartographie des traitements de données",
       "Analyse d'impact (DPIA) sur la vie privée",
