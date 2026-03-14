@@ -67,16 +67,27 @@ const Navbar = () => {
             className="md:hidden overflow-hidden border-t border-border bg-background"
           >
             <div className="flex flex-col gap-4 px-6 py-6">
-              {navItems.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-sm font-mono uppercase tracking-wider text-muted-foreground hover:text-primary"
-                >
-                  {item.label}
-                </a>
-              ))}
+              {navItems.map((item) =>
+                item.href.startsWith("/") ? (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-sm font-mono uppercase tracking-wider text-muted-foreground hover:text-primary"
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-sm font-mono uppercase tracking-wider text-muted-foreground hover:text-primary"
+                  >
+                    {item.label}
+                  </a>
+                )
+              )}
               <a
                 href="#contact"
                 onClick={() => setIsOpen(false)}

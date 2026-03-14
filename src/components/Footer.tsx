@@ -21,10 +21,16 @@ const Footer = () => {
               { label: "Actualités", href: "/actualites" },
               { label: "FAQ", href: "#faq" },
               { label: "Contact", href: "#contact" },
-            ].map((link) => (
-              <a key={link.label} href={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
-                {link.label}
-              </a>
+            ].map((link) =>
+              link.href.startsWith("/") ? (
+                <Link key={link.label} to={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
+                  {link.label}
+                </Link>
+              ) : (
+                <a key={link.label} href={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
+                  {link.label}
+                </a>
+              )
             ))}
           </nav>
 
