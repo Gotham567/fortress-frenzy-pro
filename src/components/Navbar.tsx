@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Shield, Menu, X } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
 
 const navItems = [
   { label: "Services", href: "#services" },
