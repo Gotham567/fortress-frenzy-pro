@@ -68,7 +68,7 @@ const ContactSection = () => {
 
             <div className="mt-8 space-y-4">
               {[
-                { icon: Mail, text: "contact@sentinelcyber.fr", label: "Email de contact" },
+                { icon: Mail, text: "contact@cyberconform.fr", label: "Email de contact" },
                 { icon: Phone, text: "+33 1 42 68 53 00", label: "Téléphone" },
                 { icon: MapPin, text: "75 Avenue des Champs-Élysées, 75008 Paris", label: "Adresse" },
                 { icon: Clock, text: "Lun-Ven 9h-18h • SOC 24/7", label: "Horaires" },

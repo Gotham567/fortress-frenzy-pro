@@ -34,7 +34,7 @@ const ExpertiseSection = () => {
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Avec plus de 15 ans d'expérience et 500 missions réalisées auprès de grands comptes,
-              ETI et PME françaises, SentinelCyber est un partenaire de confiance reconnu dans
+              ETI et PME françaises, CyberConform est un partenaire de confiance reconnu dans
               l'écosystème cybersécurité français.
             </p>
           </motion.div>

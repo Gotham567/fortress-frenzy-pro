@@ -16,10 +16,10 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl" role="navigation" aria-label="Navigation principale">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center gap-2" aria-label="SentinelCyber - Accueil">
+        <a href="#" className="flex items-center gap-2" aria-label="CyberConform - Accueil">
           <Shield className="h-7 w-7 text-primary" aria-hidden="true" />
           <span className="text-lg font-bold tracking-tight text-foreground">
-            SENTINEL<span className="text-primary">CYBER</span>
+            CYBER<span className="text-primary">CONFORM</span>
           </span>
         </a>
 

@@ -76,7 +76,7 @@ const ComplianceSection = () => {
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             La directive NIS2 et le RGPD imposent des obligations de cybersécurité renforcées aux
-            entreprises françaises. SentinelCyber accompagne les PME et ETI dans leur mise en
+            entreprises françaises. CyberConform accompagne les PME et ETI dans leur mise en
             conformité avec une méthodologie éprouvée et des résultats mesurables.
           </p>
         </motion.header>

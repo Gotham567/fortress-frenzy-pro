@@ -27,7 +27,7 @@ const Footer = () => {
           </nav>
 
           <p className="text-xs text-muted-foreground text-center">
-            © 2026 SentinelCyber. Tous droits réservés.
+            © 2026 CyberConform. Tous droits réservés.
             <br />
             Cabinet français de cybersécurité à Paris.
           </p>
