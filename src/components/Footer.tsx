@@ -1,4 +1,5 @@
 import { Shield } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,13 +18,20 @@ const Footer = () => {
               { label: "Services", href: "#services" },
               { label: "Conformité NIS2", href: "#conformite" },
               { label: "Expertise", href: "#expertise" },
+              { label: "Actualités", href: "/actualites" },
               { label: "FAQ", href: "#faq" },
               { label: "Contact", href: "#contact" },
-            ].map((link) => (
-              <a key={link.label} href={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
-                {link.label}
-              </a>
-            ))}
+            ].map((link) =>
+              link.href.startsWith("/") ? (
+                <Link key={link.label} to={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
+                  {link.label}
+                </Link>
+              ) : (
+                <a key={link.label} href={link.href} className="text-xs text-muted-foreground hover:text-primary transition-colors">
+                  {link.label}
+                </a>
+              )
+            )}
           </nav>
 
           <p className="text-xs text-muted-foreground text-center">

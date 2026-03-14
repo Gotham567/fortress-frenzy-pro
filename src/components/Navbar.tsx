@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Shield, Menu, X } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
 
 const navItems = [
   { label: "Services", href: "#services" },
   { label: "Conformité NIS2", href: "#conformite" },
   { label: "Expertise", href: "#expertise" },
+  { label: "Actualités", href: "/actualites" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
@@ -24,15 +26,25 @@ const Navbar = () => {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          {navItems.map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary font-mono uppercase tracking-wider"
-            >
-              {item.label}
-            </a>
-          ))}
+          {navItems.map((item) =>
+            item.href.startsWith("/") ? (
+              <Link
+                key={item.label}
+                to={item.href}
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary font-mono uppercase tracking-wider"
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <a
+                key={item.label}
+                href={item.href}
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary font-mono uppercase tracking-wider"
+              >
+                {item.label}
+              </a>
+            )
+          )}
           <a
             href="#contact"
             className="rounded-md bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[var(--shadow-glow)]"
@@ -55,16 +67,27 @@ const Navbar = () => {
             className="md:hidden overflow-hidden border-t border-border bg-background"
           >
             <div className="flex flex-col gap-4 px-6 py-6">
-              {navItems.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-sm font-mono uppercase tracking-wider text-muted-foreground hover:text-primary"
-                >
-                  {item.label}
-                </a>
-              ))}
+              {navItems.map((item) =>
+                item.href.startsWith("/") ? (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-sm font-mono uppercase tracking-wider text-muted-foreground hover:text-primary"
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    onClick={() => setIsOpen(false)}
+                    className="text-sm font-mono uppercase tracking-wider text-muted-foreground hover:text-primary"
+                  >
+                    {item.label}
+                  </a>
+                )
+              )}
               <a
                 href="#contact"
                 onClick={() => setIsOpen(false)}
