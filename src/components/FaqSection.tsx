@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Qu'est-ce que la directive NIS2 et quelles entreprises sont concernées ?",
     answer:
-      "La directive européenne NIS2 (Network and Information Security 2), en vigueur depuis octobre 2024, élargit considérablement les obligations de cybersécurité. Elle concerne désormais les PME et ETI de 18 secteurs critiques (énergie, santé, transports, numérique, eau, alimentation, etc.) à partir de 50 employés ou 10 millions d'euros de chiffre d'affaires. SentinelCyber vous aide à déterminer si votre PME est concernée par NIS2 et à vous mettre en conformité.",
+      "La directive européenne NIS2 (Network and Information Security 2), en vigueur depuis octobre 2024, élargit considérablement les obligations de cybersécurité. Elle concerne désormais les PME et ETI de 18 secteurs critiques (énergie, santé, transports, numérique, eau, alimentation, etc.) à partir de 50 employés ou 10 millions d'euros de chiffre d'affaires. CyberConform vous aide à déterminer si votre PME est concernée par NIS2 et à vous mettre en conformité.",
   },
   {
     question: "Comment se mettre en conformité NIS2 quand on est une PME ?",
