@@ -45,7 +45,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="relative py-28 bg-grid" aria-label="Contactez SentinelCyber">
+    <section id="contact" className="relative py-28 bg-grid" aria-label="Contactez CyberConform">
       <div className="container mx-auto px-6">
         <div className="grid gap-12 md:grid-cols-2">
           <motion.div
