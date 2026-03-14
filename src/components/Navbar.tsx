@@ -6,6 +6,7 @@ const navItems = [
   { label: "Services", href: "#services" },
   { label: "Conformité NIS2", href: "#conformite" },
   { label: "Expertise", href: "#expertise" },
+  { label: "Actualités", href: "/actualites" },
   { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
