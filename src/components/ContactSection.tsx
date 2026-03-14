@@ -1,7 +1,49 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Mail, Phone, MapPin, Clock } from "lucide-react";
+import { ArrowRight, Mail, Phone, MapPin, Clock, Loader2 } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      nom: formData.get("nom") as string,
+      prenom: formData.get("prenom") as string,
+      email: formData.get("email") as string,
+      message: formData.get("message") as string,
+    };
+
+    try {
+      const { data: result, error } = await supabase.functions.invoke("send-contact-email", {
+        body: data,
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Message envoyé ✅",
+        description: "Nous vous répondrons sous 24h.",
+      });
+      (e.target as HTMLFormElement).reset();
+    } catch (err) {
+      console.error(err);
+      toast({
+        title: "Erreur",
+        description: "L'envoi a échoué. Réessayez ou contactez-nous par téléphone.",
+        variant: "destructive",
+      });
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <section id="contact" className="relative py-28 bg-grid" aria-label="Contactez SentinelCyber">
       <div className="container mx-auto px-6">
@@ -45,7 +87,7 @@ const ContactSection = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
             className="space-y-5 rounded-lg border border-border bg-card p-8"
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={handleSubmit}
             aria-label="Formulaire de demande d'audit cybersécurité"
           >
             <div className="grid gap-5 sm:grid-cols-2">
@@ -107,10 +149,20 @@ const ContactSection = () => {
             </div>
             <button
               type="submit"
-              className="group inline-flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[var(--shadow-glow)]"
+              disabled={loading}
+              className="group inline-flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[var(--shadow-glow)] disabled:opacity-50"
             >
-              Demander un devis gratuit
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+              {loading ? (
+                <>
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                  Envoi en cours...
+                </>
+              ) : (
+                <>
+                  Demander un devis gratuit
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+                </>
+              )}
             </button>
           </motion.form>
         </div>
