@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sentinelcyber.fr/sitemap.xml
+Sitemap: https://www.cyberconform.fr/sitemap.xml

@@ -1,7 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
-import { ArrowRight, Calendar, Clock, Shield } from "lucide-react";
+import { Helmet } from "react-helmet-async";
+import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
@@ -44,60 +45,70 @@ const articles = [
 
 const Actualites = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <main className="pt-24 pb-20">
-        <section className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-mono uppercase tracking-widest text-primary mb-6">
-              Ressources & Actualités
-            </span>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-              Guides experts en{" "}
-              <span className="text-primary">cybersécurité</span> & conformité
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              Articles de fond, guides pratiques et analyses réglementaires pour
-              accompagner les PME dans leur mise en conformité NIS2 et RGPD.
-            </p>
-          </div>
+    <>
+      <Helmet>
+        <title>Actualités cybersécurité & conformité NIS2 RGPD — CyberConform</title>
+        <meta
+          name="description"
+          content="Articles experts sur la cybersécurité, la conformité NIS2 et le RGPD. Guides pratiques pour les PME : directive NIS2, audit RGPD, mise en conformité."
+        />
+        <link rel="canonical" href="https://www.cyberconform.fr/actualites" />
+      </Helmet>
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <main className="pt-24 pb-20">
+          <section className="container mx-auto px-6">
+            <div className="max-w-3xl mx-auto text-center mb-16">
+              <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-mono uppercase tracking-widest text-primary mb-6">
+                Ressources & Actualités
+              </span>
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+                Guides experts en{" "}
+                <span className="text-primary">cybersécurité</span> & conformité
+              </h1>
+              <p className="text-lg text-muted-foreground">
+                Articles de fond, guides pratiques et analyses réglementaires pour
+                accompagner les PME dans leur mise en conformité NIS2 et RGPD.
+              </p>
+            </div>
 
-          <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
-            {articles.map((article) => (
-              <Link
-                key={article.slug}
-                to={`/actualites/${article.slug}`}
-                className="group rounded-xl border border-border bg-card p-8 transition-all hover:border-primary/40 hover:shadow-[var(--shadow-glow)]"
-              >
-                <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-mono uppercase tracking-wider text-primary mb-4">
-                  {article.tag}
-                </span>
-                <h2 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
-                  {article.title}
-                </h2>
-                <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                  {article.excerpt}
-                </p>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-4 text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1">
-                      <Calendar className="h-3.5 w-3.5" />
-                      {article.date}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Clock className="h-3.5 w-3.5" />
-                      {article.readTime}
-                    </span>
+            <div className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
+              {articles.map((article) => (
+                <Link
+                  key={article.slug}
+                  to={`/actualites/${article.slug}`}
+                  className="group rounded-xl border border-border bg-card p-8 transition-all hover:border-primary/40 hover:shadow-[var(--shadow-glow)]"
+                >
+                  <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-mono uppercase tracking-wider text-primary mb-4">
+                    {article.tag}
+                  </span>
+                  <h2 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                    {article.title}
+                  </h2>
+                  <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                    {article.excerpt}
+                  </p>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-4 text-xs text-muted-foreground">
+                      <span className="flex items-center gap-1">
+                        <Calendar className="h-3.5 w-3.5" aria-hidden="true" />
+                        {article.date}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Clock className="h-3.5 w-3.5" aria-hidden="true" />
+                        {article.readTime}
+                      </span>
+                    </div>
+                    <ArrowRight className="h-4 w-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
                   </div>
-                  <ArrowRight className="h-4 w-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 };
 

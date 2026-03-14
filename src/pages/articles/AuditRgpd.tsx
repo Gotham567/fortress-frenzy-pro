@@ -4,9 +4,12 @@ const AuditRgpd = () => {
   return (
     <ArticleLayout
       title="Audit RGPD pour les entreprises : méthodologie complète"
+      description="Comment réaliser un audit RGPD en entreprise : préparation, déroulement, livrables et plan d'action. Guide complet par CyberConform pour garantir la conformité RGPD de votre PME."
       date="8 mars 2026"
+      dateISO="2026-03-08"
       readTime="16 min"
       tag="RGPD"
+      slug="audit-rgpd-entreprises"
     >
       <p>
         L'audit RGPD est un exercice incontournable pour toute entreprise soucieuse de sa conformité en matière de protection des données personnelles. Près de huit ans après l'entrée en application du Règlement Général sur la Protection des Données (RGPD), de nombreuses entreprises peinent encore à maintenir un niveau de conformité satisfaisant. L'audit RGPD permet de dresser un état des lieux précis, d'identifier les écarts et de définir un plan d'action correctif. Ce guide détaillé vous accompagne dans la réalisation d'un audit RGPD efficace et structuré.

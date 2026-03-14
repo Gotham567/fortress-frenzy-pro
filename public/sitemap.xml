@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.sentinelcyber.fr/</loc>
-    <lastmod>2026-03-12</lastmod>
+    <loc>https://www.cyberconform.fr/</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites/directive-nis2</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites/mise-en-conformite-nis2-guide-pme</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites/audit-rgpd-entreprises</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites/nis2-vs-rgpd-differences</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

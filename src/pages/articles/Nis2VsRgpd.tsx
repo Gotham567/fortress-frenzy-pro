@@ -4,9 +4,12 @@ const Nis2VsRgpd = () => {
   return (
     <ArticleLayout
       title="NIS2 vs RGPD : quelles différences ?"
+      description="Analyse comparative NIS2 vs RGPD : périmètre, obligations, sanctions et stratégie de conformité intégrée. Guide CyberConform pour les PME soumises aux deux réglementations."
       date="5 mars 2026"
+      dateISO="2026-03-05"
       readTime="14 min"
       tag="Réglementation"
+      slug="nis2-vs-rgpd-differences"
     >
       <p>
         La directive NIS2 et le RGPD sont deux piliers majeurs du cadre réglementaire européen en matière de sécurité numérique et de protection des données. Pour de nombreuses entreprises, et particulièrement les PME, ces deux réglementations peuvent sembler se chevaucher, voire se confondre. Pourtant, bien qu'elles partagent des objectifs communs de sécurité, elles ont des périmètres, des exigences et des mécanismes de mise en œuvre distincts. Cet article propose une analyse comparative approfondie pour vous aider à comprendre les différences et les complémentarités entre NIS2 et le RGPD, et à gérer efficacement les deux réglementations.

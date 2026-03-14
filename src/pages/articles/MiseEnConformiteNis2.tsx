@@ -4,9 +4,12 @@ const MiseEnConformiteNis2 = () => {
   return (
     <ArticleLayout
       title="Mise en conformité NIS2 : guide complet pour les PME"
+      description="Guide pratique pour la mise en conformité NIS2 des PME : étapes, budget, outils, erreurs à éviter. Accompagnement dédié par CyberConform, cabinet cybersécurité à Paris."
       date="10 mars 2026"
+      dateISO="2026-03-10"
       readTime="18 min"
       tag="NIS2"
+      slug="mise-en-conformite-nis2-guide-pme"
     >
       <p>
         La mise en conformité avec la directive NIS2 représente un défi de taille pour les PME françaises. Contrairement aux grandes entreprises qui disposent souvent d'équipes dédiées à la cybersécurité, les PME doivent composer avec des ressources limitées, un manque d'expertise interne et des budgets contraints. Ce guide pratique et détaillé vous accompagne étape par étape dans votre démarche de mise en conformité NIS2, avec des recommandations adaptées aux réalités des petites et moyennes entreprises.
