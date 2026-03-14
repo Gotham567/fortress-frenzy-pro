@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Qu'est-ce que la directive NIS2 et quelles entreprises sont concernées ?",
     answer:
-      "La directive européenne NIS2 (Network and Information Security 2), en vigueur depuis octobre 2024, élargit considérablement les obligations de cybersécurité. Elle concerne désormais les PME et ETI de 18 secteurs critiques (énergie, santé, transports, numérique, eau, alimentation, etc.) à partir de 50 employés ou 10 millions d'euros de chiffre d'affaires. SentinelCyber vous aide à déterminer si votre PME est concernée par NIS2 et à vous mettre en conformité.",
+      "La directive européenne NIS2 (Network and Information Security 2), en vigueur depuis octobre 2024, élargit considérablement les obligations de cybersécurité. Elle concerne désormais les PME et ETI de 18 secteurs critiques (énergie, santé, transports, numérique, eau, alimentation, etc.) à partir de 50 employés ou 10 millions d'euros de chiffre d'affaires. CyberConform vous aide à déterminer si votre PME est concernée par NIS2 et à vous mettre en conformité.",
   },
   {
     question: "Comment se mettre en conformité NIS2 quand on est une PME ?",
@@ -20,7 +20,7 @@ const faqs = [
   {
     question: "Quelle est la différence entre conformité NIS2 et conformité RGPD ?",
     answer:
-      "Le RGPD (Règlement Général sur la Protection des Données) concerne la protection des données personnelles, tandis que la directive NIS2 porte sur la sécurité des réseaux et systèmes d'information. Les deux sont complémentaires : la mise en conformité RGPD protège les données de vos clients et employés, la conformité NIS2 sécurise votre infrastructure globale. SentinelCyber accompagne les entreprises sur les deux volets.",
+      "Le RGPD (Règlement Général sur la Protection des Données) concerne la protection des données personnelles, tandis que la directive NIS2 porte sur la sécurité des réseaux et systèmes d'information. Les deux sont complémentaires : la mise en conformité RGPD protège les données de vos clients et employés, la conformité NIS2 sécurise votre infrastructure globale. CyberConform accompagne les entreprises sur les deux volets.",
   },
   {
     question: "Qu'est-ce qu'un test d'intrusion (pentest) ?",
@@ -33,7 +33,7 @@ const faqs = [
       "Un audit de sécurité permet d'évaluer l'ensemble de votre posture de sécurité, de vérifier la conformité aux normes (ISO 27001, ANSSI, RGPD, NIS2) et d'identifier les axes d'amélioration prioritaires. C'est une étape essentielle pour protéger vos données sensibles et répondre aux exigences réglementaires de la directive NIS2.",
   },
   {
-    question: "Comment SentinelCyber intervient en cas d'incident de sécurité ?",
+    question: "Comment CyberConform intervient en cas d'incident de sécurité ?",
     answer:
       "Notre équipe SOC est disponible 24/7. En cas d'incident, nous intervenons rapidement pour contenir la menace, réaliser l'analyse forensique, éradiquer la compromission et mettre en place un plan de remédiation complet. Nous vous accompagnons également dans la communication de crise et les obligations de notification NIS2 et RGPD.",
   },

@@ -18,7 +18,7 @@ const complianceItems = [
     icon: Scale,
     title: "Mise en conformité RGPD",
     description:
-      "Le Règlement Général sur la Protection des Données impose aux entreprises de garantir la sécurité des données personnelles. SentinelCyber vous accompagne dans votre mise en conformité RGPD avec une approche pragmatique adaptée aux PME et ETI.",
+      "Le Règlement Général sur la Protection des Données impose aux entreprises de garantir la sécurité des données personnelles. CyberConform vous accompagne dans votre mise en conformité RGPD avec une approche pragmatique adaptée aux PME et ETI.",
     points: [
       "Audit RGPD et cartographie des traitements de données",
       "Analyse d'impact (DPIA) sur la vie privée",
@@ -76,7 +76,7 @@ const ComplianceSection = () => {
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             La directive NIS2 et le RGPD imposent des obligations de cybersécurité renforcées aux
-            entreprises françaises. SentinelCyber accompagne les PME et ETI dans leur mise en
+            entreprises françaises. CyberConform accompagne les PME et ETI dans leur mise en
             conformité avec une méthodologie éprouvée et des résultats mesurables.
           </p>
         </motion.header>

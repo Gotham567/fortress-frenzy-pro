@@ -74,7 +74,7 @@ const ServicesSection = () => {
             <span className="text-gradient-cyber">cybersécurité</span>
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            De la prévention à la réponse aux incidents, SentinelCyber propose une gamme complète
+            De la prévention à la réponse aux incidents, CyberConform propose une gamme complète
             de services pour protéger les entreprises françaises contre les cybermenaces.
           </p>
         </motion.header>

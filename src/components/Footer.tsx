@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <Shield className="h-5 w-5 text-primary" aria-hidden="true" />
             <span className="text-sm font-bold text-foreground">
-              SENTINEL<span className="text-primary">CYBER</span>
+              CYBER<span className="text-primary">CONFORM</span>
             </span>
           </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
           </nav>
 
           <p className="text-xs text-muted-foreground text-center">
-            © 2026 SentinelCyber. Tous droits réservés.
+            © 2026 CyberConform. Tous droits réservés.
             <br />
             Cabinet français de cybersécurité à Paris.
           </p>

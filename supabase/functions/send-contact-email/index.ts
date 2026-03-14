@@ -32,7 +32,7 @@ serve(async (req) => {
         'Authorization': `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: 'SentinelCyber <onboarding@resend.dev>',
+        from: 'CyberConform <onboarding@resend.dev>',
         to: ['lamoinematieu@gmail.com'],
         subject: `Nouveau contact - ${prenom} ${nom}`,
         html: `

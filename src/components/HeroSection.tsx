@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Présentation SentinelCyber">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Présentation CyberConform">
       {/* Background */}
       <div className="absolute inset-0">
         <img
@@ -50,7 +50,7 @@ const HeroSection = () => {
 
           <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
             Tests d'intrusion (pentest), audits de sécurité ISO 27001, conseil stratégique RGPD & NIS2
-            et réponse aux incidents 24/7. SentinelCyber sécurise votre infrastructure
+            et réponse aux incidents 24/7. CyberConform sécurise votre infrastructure
             avec une expertise de pointe certifiée OSCP, CEH et CISSP.
           </p>
 
