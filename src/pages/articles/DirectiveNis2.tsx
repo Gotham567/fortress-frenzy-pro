@@ -4,9 +4,12 @@ const DirectiveNis2 = () => {
   return (
     <ArticleLayout
       title="Qu'est-ce que la directive NIS2 ?"
+      description="Tout savoir sur la directive européenne NIS2 : objectifs, périmètre d'application, obligations de cybersécurité et calendrier de mise en conformité pour les entreprises françaises."
       date="12 mars 2026"
+      dateISO="2026-03-12"
       readTime="15 min"
       tag="NIS2"
+      slug="directive-nis2"
     >
       <p>
         La directive NIS2 (Network and Information Security 2) représente une évolution majeure du cadre réglementaire européen en matière de cybersécurité. Adoptée par le Parlement européen le 10 novembre 2022, elle remplace la première directive NIS de 2016 et étend considérablement son périmètre d'application. Pour les entreprises françaises, cette directive constitue un tournant : elle impose de nouvelles obligations de sécurité informatique à un nombre bien plus large d'organisations, y compris les PME opérant dans des secteurs jugés critiques.
