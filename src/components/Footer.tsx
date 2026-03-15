@@ -14,6 +14,11 @@ const Footer = () => {
     { label: "Contact", href: "#contact" },
   ];
 
+  const legalLinks = [
+    { label: "Mentions légales", href: "/mentions-legales" },
+    { label: "Politique de confidentialité", href: "/politique-confidentialite" },
+  ];
+
   return (
     <footer className="border-t border-border py-12" role="contentinfo">
       <div className="container mx-auto px-6">
