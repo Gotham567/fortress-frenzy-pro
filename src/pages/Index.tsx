@@ -33,6 +33,7 @@ const Index = () => {
           <ContactSection />
         </main>
         <Footer />
+        <FloatingCTA />
       </div>
     </>
   );
