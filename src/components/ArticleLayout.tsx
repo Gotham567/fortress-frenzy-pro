@@ -108,6 +108,8 @@ const ArticleLayout = ({ title, description, date, dateISO, readTime, tag, slug,
                 {children}
               </div>
 
+              <RelatedArticles currentSlug={slug} />
+
               <div className="mt-16 rounded-xl border border-primary/30 bg-primary/5 p-8 text-center">
                 <Shield className="h-8 w-8 text-primary mx-auto mb-4" aria-hidden="true" />
                 <h3 className="text-xl font-bold text-foreground mb-2">
