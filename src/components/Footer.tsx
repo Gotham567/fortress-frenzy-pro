@@ -62,6 +62,7 @@ const Footer = () => {
               ))}
             </nav>
           </div>
+        </div>
       </div>
     </footer>
   );
