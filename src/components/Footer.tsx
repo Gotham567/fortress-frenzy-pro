@@ -14,6 +14,11 @@ const Footer = () => {
     { label: "Contact", href: "#contact" },
   ];
 
+  const legalLinks = [
+    { label: "Mentions légales", href: "/mentions-legales" },
+    { label: "Politique de confidentialité", href: "/politique-confidentialite" },
+  ];
+
   return (
     <footer className="border-t border-border py-12" role="contentinfo">
       <div className="container mx-auto px-6">
@@ -43,11 +48,20 @@ const Footer = () => {
             )}
           </nav>
 
-          <p className="text-xs text-muted-foreground text-center">
-            © 2026 CyberConform. Tous droits réservés.
-            <br />
-            Cabinet français de cybersécurité à Paris.
-          </p>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-xs text-muted-foreground text-center">
+              © 2026 CyberConform. Tous droits réservés.
+              <br />
+              Cabinet français de cybersécurité à Paris.
+            </p>
+            <nav aria-label="Liens légaux" className="flex gap-4">
+              {legalLinks.map((link) => (
+                <Link key={link.label} to={link.href} className="text-xs text-muted-foreground/60 hover:text-primary transition-colors">
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
         </div>
       </div>
     </footer>

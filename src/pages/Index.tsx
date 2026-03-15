@@ -8,6 +8,7 @@ import ExpertiseSection from "@/components/ExpertiseSection";
 import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import FloatingCTA from "@/components/FloatingCTA";
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
           <ContactSection />
         </main>
         <Footer />
+        <FloatingCTA />
       </div>
     </>
   );
