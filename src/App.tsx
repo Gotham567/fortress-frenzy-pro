@@ -10,10 +10,12 @@ import DirectiveNis2 from "./pages/articles/DirectiveNis2.tsx";
 import MiseEnConformiteNis2 from "./pages/articles/MiseEnConformiteNis2.tsx";
 import AuditRgpd from "./pages/articles/AuditRgpd.tsx";
 import Nis2VsRgpd from "./pages/articles/Nis2VsRgpd.tsx";
+import CybersecuritePme from "./pages/articles/CybersecuritePme.tsx";
+import Nis2SecteurSante from "./pages/articles/Nis2SecteurSante.tsx";
+import Nis2SecteurEnergie from "./pages/articles/Nis2SecteurEnergie.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
-
 const queryClient = new QueryClient();
 
 const App = () => (
