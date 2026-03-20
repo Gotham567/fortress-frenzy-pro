@@ -32,6 +32,9 @@ const App = () => (
           <Route path="/actualites/mise-en-conformite-nis2-guide-pme" element={<MiseEnConformiteNis2 />} />
           <Route path="/actualites/audit-rgpd-entreprises" element={<AuditRgpd />} />
           <Route path="/actualites/nis2-vs-rgpd-differences" element={<Nis2VsRgpd />} />
+          <Route path="/actualites/cybersecurite-pme-guide" element={<CybersecuritePme />} />
+          <Route path="/actualites/nis2-secteur-sante" element={<Nis2SecteurSante />} />
+          <Route path="/actualites/nis2-secteur-energie" element={<Nis2SecteurEnergie />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
