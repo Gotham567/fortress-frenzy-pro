@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "cybersecurite-pme-guide",
+    title: "Cybersécurité des PME : le guide complet pour protéger votre entreprise",
+    excerpt:
+      "Guide complet de cybersécurité pour les PME : menaces principales, mesures de protection essentielles, budget, outils et plan d'action en 90 jours pour sécuriser votre entreprise.",
+    date: "18 mars 2026",
+    readTime: "17 min",
+    tag: "Cybersécurité",
+  },
+  {
+    slug: "nis2-secteur-sante",
+    title: "NIS2 et secteur de la santé : obligations et mise en conformité",
+    excerpt:
+      "Guide complet sur l'application de la directive NIS2 au secteur de la santé : hôpitaux, cliniques, laboratoires et éditeurs de logiciels médicaux. Obligations, risques et plan d'action.",
+    date: "16 mars 2026",
+    readTime: "16 min",
+    tag: "NIS2 Santé",
+  },
+  {
+    slug: "nis2-secteur-energie",
+    title: "NIS2 et secteur de l'énergie : enjeux et obligations de cybersécurité",
+    excerpt:
+      "Analyse complète de la directive NIS2 appliquée au secteur de l'énergie : électricité, gaz, pétrole, hydrogène. Obligations, risques OT/IT et plan de conformité.",
+    date: "14 mars 2026",
+    readTime: "15 min",
+    tag: "NIS2 Énergie",
+  },
+  {
     slug: "directive-nis2",
     title: "Qu'est-ce que la directive NIS2 ?",
     excerpt:
@@ -42,7 +69,6 @@ const articles = [
     tag: "Réglementation",
   },
 ];
-
 const Actualites = () => {
   return (
     <>

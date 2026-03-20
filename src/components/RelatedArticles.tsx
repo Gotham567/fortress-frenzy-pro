@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "Cybersécurité des PME : le guide complet",
+    description: "Menaces, mesures de protection, budget et plan d'action en 90 jours pour les PME.",
+    slug: "cybersecurite-pme-guide",
+    tag: "Cybersécurité",
+  },
+  {
+    title: "NIS2 et secteur de la santé",
+    description: "Obligations NIS2 pour les hôpitaux, cliniques, laboratoires et éditeurs de logiciels médicaux.",
+    slug: "nis2-secteur-sante",
+    tag: "NIS2 Santé",
+  },
+  {
+    title: "NIS2 et secteur de l'énergie",
+    description: "Enjeux de cybersécurité IT/OT et plan de conformité NIS2 pour le secteur énergétique.",
+    slug: "nis2-secteur-energie",
+    tag: "NIS2 Énergie",
+  },
+  {
     title: "Qu'est-ce que la directive NIS2 ?",
     description: "Tout savoir sur la directive européenne NIS2 : objectifs, périmètre et obligations.",
     slug: "directive-nis2",
@@ -34,7 +52,6 @@ const allArticles: Article[] = [
     tag: "Réglementation",
   },
 ];
-
 interface RelatedArticlesProps {
   currentSlug: string;
 }
