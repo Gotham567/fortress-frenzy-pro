@@ -102,7 +102,7 @@ const MiseEnConformiteNis2 = () => {
 
       <h3>3.7. Gestion des vulnérabilités</h3>
       <p>
-        Un processus de gestion des vulnérabilités doit être mis en place pour identifier et corriger les failles de sécurité avant qu'elles ne soient exploitées. Cela comprend la réalisation de scans de vulnérabilités réguliers, la priorisation des correctifs en fonction du risque, la mise en place d'un processus de divulgation coordonnée des vulnérabilités et la réalisation de tests d'intrusion périodiques.
+        Un processus de gestion des vulnérabilités doit être mis en place pour identifier et corriger les failles de sécurité avant qu'elles ne soient exploitées. Cela comprend la réalisation de scans de vulnérabilités réguliers, la priorisation des correctifs en fonction du risque, la mise en place d'un processus de divulgation coordonnée des vulnérabilités et la réalisation de <a href="https://securecyber.fr/audit" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">tests d'intrusion</a> périodiques.
       </p>
 
       <h3>3.8. Contrôle d'accès et authentification</h3>

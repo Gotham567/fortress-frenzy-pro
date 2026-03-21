@@ -144,7 +144,7 @@ const Nis2SecteurSante = () => {
         <li>Rédiger et faire valider la <strong>PSSI</strong> par la direction</li>
         <li>Contractualiser les exigences de sécurité avec les prestataires critiques</li>
         <li>Mettre en place le processus de <strong>notification des incidents</strong> conforme à NIS2</li>
-        <li>Réaliser un <strong>exercice de crise cyber</strong> impliquant la direction et les équipes opérationnelles</li>
+        <li>Réaliser un <strong>exercice de crise cyber</strong> impliquant la direction et les équipes opérationnelles — un <a href="https://securecyber.fr/cert" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">CERT spécialisé</a> peut accompagner cette démarche</li>
         <li>Documenter l'ensemble du dispositif pour démontrer la conformité en cas de contrôle</li>
       </ul>
 

@@ -158,7 +158,7 @@ const CybersecuritePme = () => {
 
       <h3>5.3. Mois 3 — La maturité</h3>
       <ul>
-        <li>Réaliser un <Link to="/actualites/audit-rgpd-entreprises" className="text-primary hover:underline">audit de sécurité</Link> avec un prestataire certifié (test d'intrusion, analyse de vulnérabilités)</li>
+        <li>Réaliser un <Link to="/actualites/audit-rgpd-entreprises" className="text-primary hover:underline">audit de sécurité</Link> avec un prestataire certifié — un <a href="https://securecyber.fr/audit" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">pentest entreprise</a> permet d'identifier concrètement les vulnérabilités exploitables</li>
         <li>Mettre en place un plan de continuité d'activité (PCA) et un plan de reprise d'activité (PRA)</li>
         <li>Évaluer la conformité <Link to="/actualites/nis2-vs-rgpd-differences" className="text-primary hover:underline">NIS2 et RGPD</Link> et lancer les actions correctives</li>
         <li>Planifier un programme de sensibilisation continu (simulations mensuelles, micro-formations trimestrielles)</li>
@@ -170,7 +170,7 @@ const CybersecuritePme = () => {
         Le choix d'un partenaire cybersécurité est stratégique pour une PME. Voici les critères à évaluer :
       </p>
       <ul>
-        <li><strong>Certifications</strong> : recherchez les certifications PASSI (Prestataires d'Audit de la Sécurité des Systèmes d'Information), ISO 27001, et les qualifications individuelles des consultants (OSCP, CEH, CISSP)</li>
+        <li><strong>Certifications</strong> : recherchez les certifications PASSI (Prestataires d'Audit de la Sécurité des Systèmes d'Information), ISO 27001, et les qualifications individuelles des consultants (OSCP, CEH, CISSP). Pour les environnements cloud, un <a href="https://cloud-secure.fr" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">cabinet spécialisé en sécurité cloud</a> apportera une expertise complémentaire</li>
         <li><strong>Expérience sectorielle</strong> : privilégiez un prestataire connaissant votre secteur d'activité et les réglementations associées</li>
         <li><strong>Approche pragmatique</strong> : méfiez-vous des discours alarmistes vendant des solutions surdimensionnées ; un bon prestataire adapte ses recommandations à votre taille et à vos risques réels</li>
         <li><strong>Capacité de réponse aux incidents</strong> : vérifiez la disponibilité du prestataire en cas de crise (astreinte 24/7, délai d'intervention garanti)</li>

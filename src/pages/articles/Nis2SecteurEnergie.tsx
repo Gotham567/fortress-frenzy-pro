@@ -40,7 +40,7 @@ const Nis2SecteurEnergie = () => {
 
       <h3>1.3. Les attaques contre la chaîne d'approvisionnement</h3>
       <p>
-        Les grands énergéticiens s'appuient sur un écosystème dense de fournisseurs, sous-traitants et prestataires de maintenance. Chacun de ces maillons représente un vecteur d'attaque potentiel. Les compromissions de fournisseurs de logiciels industriels (comme l'attaque SolarWinds) permettent d'atteindre simultanément des dizaines d'opérateurs énergétiques.
+        Les grands énergéticiens s'appuient sur un écosystème dense de fournisseurs, sous-traitants et prestataires de maintenance. Chacun de ces maillons représente un vecteur d'attaque potentiel. Les compromissions de fournisseurs de logiciels industriels (comme l'attaque SolarWinds) permettent d'atteindre simultanément des dizaines d'opérateurs énergétiques. La migration vers le cloud des systèmes de supervision accentue ce risque, rendant indispensable un <a href="https://cloud-secure.fr/#services" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">audit de sécurité cloud</a> régulier.
       </p>
 
       <h2>2. NIS2 et énergie : le périmètre d'application</h2>
