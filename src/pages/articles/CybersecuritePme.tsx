@@ -158,7 +158,7 @@ const CybersecuritePme = () => {
 
       <h3>5.3. Mois 3 — La maturité</h3>
       <ul>
-        <li>Réaliser un <Link to="/actualites/audit-rgpd-entreprises" className="text-primary hover:underline">audit de sécurité</Link> avec un prestataire certifié (test d'intrusion, analyse de vulnérabilités)</li>
+        <li>Réaliser un <Link to="/actualites/audit-rgpd-entreprises" className="text-primary hover:underline">audit de sécurité</Link> avec un prestataire certifié — un <a href="https://securecyber.fr/audit" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">pentest entreprise</a> permet d'identifier concrètement les vulnérabilités exploitables</li>
         <li>Mettre en place un plan de continuité d'activité (PCA) et un plan de reprise d'activité (PRA)</li>
         <li>Évaluer la conformité <Link to="/actualites/nis2-vs-rgpd-differences" className="text-primary hover:underline">NIS2 et RGPD</Link> et lancer les actions correctives</li>
         <li>Planifier un programme de sensibilisation continu (simulations mensuelles, micro-formations trimestrielles)</li>
