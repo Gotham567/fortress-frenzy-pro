@@ -38,6 +38,9 @@ const App = () => (
           <Route path="/actualites/cybersecurite-pme-guide" element={<CybersecuritePme />} />
           <Route path="/actualites/nis2-secteur-sante" element={<Nis2SecteurSante />} />
           <Route path="/actualites/nis2-secteur-energie" element={<Nis2SecteurEnergie />} />
+          <Route path="/actualites/rssi-externalise-guide" element={<RssiExternalise />} />
+          <Route path="/actualites/plan-continuite-activite-cybersecurite" element={<PlanContinuiteActivite />} />
+          <Route path="/actualites/sensibilisation-cybersecurite-entreprise" element={<SensibilisationCybersecurite />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
