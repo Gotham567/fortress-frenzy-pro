@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "sensibilisation-cybersecurite-entreprise",
+    title: "Sensibilisation à la cybersécurité en entreprise : programme complet",
+    excerpt:
+      "Guide complet pour mettre en place un programme de sensibilisation cybersécurité efficace : phishing simulé, formation par métier, indicateurs de performance et conformité NIS2.",
+    date: "26 mars 2026",
+    readTime: "15 min",
+    tag: "Formation cyber",
+  },
+  {
+    slug: "plan-continuite-activite-cybersecurite",
+    title: "Plan de continuité d'activité (PCA) cybersécurité : guide complet",
+    excerpt:
+      "Guide complet sur le PCA/PRA cybersécurité : gestion de crise, sauvegardes immutables, conformité NIS2 et méthodologie pour garantir la résilience de votre entreprise.",
+    date: "24 mars 2026",
+    readTime: "16 min",
+    tag: "Résilience cyber",
+  },
+  {
+    slug: "rssi-externalise-guide",
+    title: "RSSI externalisé : pourquoi et comment externaliser votre cybersécurité",
+    excerpt:
+      "Guide complet sur le RSSI externalisé (vCISO) : avantages, missions, coûts, critères de choix et ROI pour les PME et ETI soumises à NIS2.",
+    date: "22 mars 2026",
+    readTime: "18 min",
+    tag: "RSSI externalisé",
+  },
+  {
     slug: "cybersecurite-pme-guide",
     title: "Cybersécurité des PME : le guide complet pour protéger votre entreprise",
     excerpt:
