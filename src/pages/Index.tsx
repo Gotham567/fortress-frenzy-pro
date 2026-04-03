@@ -27,7 +27,6 @@ const Index = () => {
         <Navbar />
         <main>
           <HeroSection />
-          <AuditGratuitSection />
           <ServicesSection />
           <StatsSection />
           <ComplianceSection />
