@@ -19,11 +19,13 @@ const FloatingCTA = () => {
   return (
     <div className="fixed bottom-4 left-4 right-4 z-50 md:hidden animate-in slide-in-from-bottom-4 duration-300">
       <a
-        href="#contact"
+        href="https://calendly.com/many-cyberconform/30min"
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 w-full rounded-xl bg-primary px-6 py-4 text-sm font-bold text-primary-foreground shadow-lg transition-all active:scale-[0.98]"
-        aria-label="Demander un diagnostic gratuit"
+        aria-label="Réserver un audit cybersécurité gratuit"
       >
-        Diagnostic gratuit
+        📅 Audit gratuit — Réserver
         <ArrowRight className="h-4 w-4" aria-hidden="true" />
       </a>
     </div>
