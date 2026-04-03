@@ -10,7 +10,6 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import AuditBanner from "@/components/AuditBanner";
-import AuditGratuitSection from "@/components/AuditGratuitSection";
 
 const Index = () => {
   return (
