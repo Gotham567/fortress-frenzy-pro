@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "audit-cybersecurite-entreprise",
+    title: "Audit de cybersécurité : méthodologie complète et coûts 2026",
+    excerpt:
+      "Guide complet sur l'audit de cybersécurité en entreprise : types d'audits (organisationnel, technique, pentest), méthodologie ANSSI, livrables, coûts et conformité NIS2.",
+    date: "10 avril 2026",
+    readTime: "16 min",
+    tag: "Audit cyber",
+  },
+  {
+    slug: "ransomware-pme-protection",
+    title: "Ransomware PME : prévention, réaction et reconstruction",
+    excerpt:
+      "Guide complet pour protéger votre PME contre les ransomwares : vecteurs d'attaque, mesures préventives, gestion de crise, négociation, reconstruction et conformité NIS2.",
+    date: "6 avril 2026",
+    readTime: "18 min",
+    tag: "Ransomware",
+  },
+  {
+    slug: "phishing-protection-entreprise",
+    title: "Phishing en entreprise : guide complet de protection 2026",
+    excerpt:
+      "Comprendre, détecter et bloquer le phishing en entreprise : techniques d'attaque, solutions techniques (DMARC, SPF, DKIM), formation des collaborateurs et conformité NIS2.",
+    date: "2 avril 2026",
+    readTime: "17 min",
+    tag: "Phishing",
+  },
+  {
     slug: "sensibilisation-cybersecurite-entreprise",
     title: "Sensibilisation à la cybersécurité en entreprise : programme complet",
     excerpt:

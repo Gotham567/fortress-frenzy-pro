@@ -16,6 +16,9 @@ import Nis2SecteurEnergie from "./pages/articles/Nis2SecteurEnergie.tsx";
 import RssiExternalise from "./pages/articles/RssiExternalise.tsx";
 import PlanContinuiteActivite from "./pages/articles/PlanContinuiteActivite.tsx";
 import SensibilisationCybersecurite from "./pages/articles/SensibilisationCybersecurite.tsx";
+import PhishingProtection from "./pages/articles/PhishingProtection.tsx";
+import RansomwarePme from "./pages/articles/RansomwarePme.tsx";
+import AuditCybersecurite from "./pages/articles/AuditCybersecurite.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -41,6 +44,9 @@ const App = () => (
           <Route path="/actualites/rssi-externalise-guide" element={<RssiExternalise />} />
           <Route path="/actualites/plan-continuite-activite-cybersecurite" element={<PlanContinuiteActivite />} />
           <Route path="/actualites/sensibilisation-cybersecurite-entreprise" element={<SensibilisationCybersecurite />} />
+          <Route path="/actualites/phishing-protection-entreprise" element={<PhishingProtection />} />
+          <Route path="/actualites/ransomware-pme-protection" element={<RansomwarePme />} />
+          <Route path="/actualites/audit-cybersecurite-entreprise" element={<AuditCybersecurite />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

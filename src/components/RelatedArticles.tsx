@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "Audit de cybersécurité : méthodologie complète 2026",
+    description: "Types d'audits, méthodologie ANSSI, coûts et conformité NIS2 pour votre entreprise.",
+    slug: "audit-cybersecurite-entreprise",
+    tag: "Audit cyber",
+  },
+  {
+    title: "Ransomware PME : prévention et réaction",
+    description: "Vecteurs d'attaque, mesures préventives, gestion de crise et reconstruction post-attaque.",
+    slug: "ransomware-pme-protection",
+    tag: "Ransomware",
+  },
+  {
+    title: "Phishing en entreprise : guide de protection 2026",
+    description: "Détecter et bloquer le phishing : DMARC, SPF, DKIM, sensibilisation et conformité NIS2.",
+    slug: "phishing-protection-entreprise",
+    tag: "Phishing",
+  },
+  {
     title: "Cybersécurité des PME : le guide complet",
     description: "Menaces, mesures de protection, budget et plan d'action en 90 jours pour les PME.",
     slug: "cybersecurite-pme-guide",
