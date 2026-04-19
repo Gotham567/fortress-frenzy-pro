@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "Règlement DORA : guide complet 2026",
+    description: "Périmètre, obligations, gestion des risques TIC et plan de conformité DORA pour le secteur financier.",
+    slug: "dora-reglementation-secteur-financier",
+    tag: "DORA",
+  },
+  {
+    title: "Certification ISO 27001 : guide complet PME et ETI",
+    description: "Étapes, coûts, livrables et articulation avec NIS2 et RGPD pour réussir votre certification SMSI.",
+    slug: "iso-27001-certification-guide",
+    tag: "ISO 27001",
+  },
+  {
+    title: "Sécurité du cloud pour PME : guide 2026",
+    description: "Risques, responsabilité partagée et bonnes pratiques Microsoft 365, Google Workspace, AWS et Azure.",
+    slug: "securite-cloud-pme-guide",
+    tag: "Sécurité Cloud",
+  },
+  {
     title: "Audit de cybersécurité : méthodologie complète 2026",
     description: "Types d'audits, méthodologie ANSSI, coûts et conformité NIS2 pour votre entreprise.",
     slug: "audit-cybersecurite-entreprise",
