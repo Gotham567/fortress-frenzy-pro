@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "dora-reglementation-secteur-financier",
+    title: "Règlement DORA : guide complet pour le secteur financier en 2026",
+    excerpt:
+      "Tout savoir sur DORA : périmètre, obligations, gestion des risques TIC, tests de résilience, sanctions et plan de mise en conformité pour banques, assurances et fintechs.",
+    date: "18 avril 2026",
+    readTime: "17 min",
+    tag: "DORA",
+  },
+  {
+    slug: "iso-27001-certification-guide",
+    title: "Certification ISO 27001 : le guide complet pour les PME et ETI",
+    excerpt:
+      "Guide complet sur la certification ISO 27001 : objectifs, étapes, coûts, durée, livrables, lien avec NIS2 et RGPD. Méthodologie pour obtenir et maintenir votre certification SMSI.",
+    date: "16 avril 2026",
+    readTime: "18 min",
+    tag: "ISO 27001",
+  },
+  {
+    slug: "securite-cloud-pme-guide",
+    title: "Sécurité du cloud pour PME : risques, bonnes pratiques et conformité 2026",
+    excerpt:
+      "Guide complet sur la sécurité du cloud pour les PME : risques, modèle de responsabilité partagée, bonnes pratiques Microsoft 365, Google Workspace, AWS, Azure, conformité NIS2 et RGPD.",
+    date: "14 avril 2026",
+    readTime: "16 min",
+    tag: "Sécurité Cloud",
+  },
+  {
     slug: "audit-cybersecurite-entreprise",
     title: "Audit de cybersécurité : méthodologie complète et coûts 2026",
     excerpt:

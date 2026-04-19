@@ -19,6 +19,9 @@ import SensibilisationCybersecurite from "./pages/articles/SensibilisationCybers
 import PhishingProtection from "./pages/articles/PhishingProtection.tsx";
 import RansomwarePme from "./pages/articles/RansomwarePme.tsx";
 import AuditCybersecurite from "./pages/articles/AuditCybersecurite.tsx";
+import DoraReglementation from "./pages/articles/DoraReglementation.tsx";
+import Iso27001Certification from "./pages/articles/Iso27001Certification.tsx";
+import SecuriteCloudPme from "./pages/articles/SecuriteCloudPme.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -47,6 +50,9 @@ const App = () => (
           <Route path="/actualites/phishing-protection-entreprise" element={<PhishingProtection />} />
           <Route path="/actualites/ransomware-pme-protection" element={<RansomwarePme />} />
           <Route path="/actualites/audit-cybersecurite-entreprise" element={<AuditCybersecurite />} />
+          <Route path="/actualites/dora-reglementation-secteur-financier" element={<DoraReglementation />} />
+          <Route path="/actualites/iso-27001-certification-guide" element={<Iso27001Certification />} />
+          <Route path="/actualites/securite-cloud-pme-guide" element={<SecuriteCloudPme />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

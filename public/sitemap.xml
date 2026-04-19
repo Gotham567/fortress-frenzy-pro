@@ -13,6 +13,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.cyberconform.fr/actualites/dora-reglementation-secteur-financier</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites/iso-27001-certification-guide</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.cyberconform.fr/actualites/securite-cloud-pme-guide</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.cyberconform.fr/actualites/audit-cybersecurite-entreprise</loc>
     <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
