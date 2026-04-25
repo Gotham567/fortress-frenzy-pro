@@ -22,6 +22,9 @@ import AuditCybersecurite from "./pages/articles/AuditCybersecurite.tsx";
 import DoraReglementation from "./pages/articles/DoraReglementation.tsx";
 import Iso27001Certification from "./pages/articles/Iso27001Certification.tsx";
 import SecuriteCloudPme from "./pages/articles/SecuriteCloudPme.tsx";
+import CyberResilienceAct from "./pages/articles/CyberResilienceAct.tsx";
+import CyberAssurancePme from "./pages/articles/CyberAssurancePme.tsx";
+import DirectiveCer from "./pages/articles/DirectiveCer.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -53,6 +56,9 @@ const App = () => (
           <Route path="/actualites/dora-reglementation-secteur-financier" element={<DoraReglementation />} />
           <Route path="/actualites/iso-27001-certification-guide" element={<Iso27001Certification />} />
           <Route path="/actualites/securite-cloud-pme-guide" element={<SecuriteCloudPme />} />
+          <Route path="/actualites/cyber-resilience-act-guide" element={<CyberResilienceAct />} />
+          <Route path="/actualites/cyber-assurance-pme-guide" element={<CyberAssurancePme />} />
+          <Route path="/actualites/directive-cer-resilience-entites-critiques" element={<DirectiveCer />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
