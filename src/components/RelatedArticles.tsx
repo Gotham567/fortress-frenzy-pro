@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "Directive CER : résilience des entités critiques",
+    description: "Périmètre, obligations, articulation NIS2 et plan de conformité pour les entités critiques.",
+    slug: "directive-cer-resilience-entites-critiques",
+    tag: "Directive CER",
+  },
+  {
+    title: "Cyber Resilience Act (CRA) : guide éditeurs et fabricants",
+    description: "Marquage CE cybersécurité, obligations produits, sanctions et calendrier d'application 2027.",
+    slug: "cyber-resilience-act-guide",
+    tag: "Cyber Resilience Act",
+  },
+  {
+    title: "Cyber-assurance PME : guide 2026",
+    description: "Garanties, exclusions, prérequis techniques, prix et négociation d'une police cyber pour PME.",
+    slug: "cyber-assurance-pme-guide",
+    tag: "Cyber-assurance",
+  },
+  {
     title: "Règlement DORA : guide complet 2026",
     description: "Périmètre, obligations, gestion des risques TIC et plan de conformité DORA pour le secteur financier.",
     slug: "dora-reglementation-secteur-financier",

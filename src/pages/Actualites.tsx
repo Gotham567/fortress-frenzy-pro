@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "directive-cer-resilience-entites-critiques",
+    title: "Directive CER : résilience des entités critiques, le pendant physique de NIS2",
+    excerpt:
+      "Comprendre la directive européenne CER : périmètre, obligations, articulation avec NIS2, sanctions et plan de mise en conformité pour les entités critiques en France.",
+    date: "24 avril 2026",
+    readTime: "15 min",
+    tag: "Directive CER",
+  },
+  {
+    slug: "cyber-resilience-act-guide",
+    title: "Cyber Resilience Act (CRA) : guide complet pour éditeurs et fabricants",
+    excerpt:
+      "Périmètre, marquage CE cybersécurité, obligations sur les produits avec éléments numériques, sanctions et plan de mise en conformité d'ici décembre 2027.",
+    date: "22 avril 2026",
+    readTime: "16 min",
+    tag: "Cyber Resilience Act",
+  },
+  {
+    slug: "cyber-assurance-pme-guide",
+    title: "Cyber-assurance pour PME : guide complet pour choisir et négocier sa police en 2026",
+    excerpt:
+      "Garanties, exclusions, prérequis techniques, prix moyens, gestion d'un sinistre cyber et conseils pour bien négocier votre contrat cyber-assurance.",
+    date: "20 avril 2026",
+    readTime: "15 min",
+    tag: "Cyber-assurance",
+  },
+  {
     slug: "dora-reglementation-secteur-financier",
     title: "Règlement DORA : guide complet pour le secteur financier en 2026",
     excerpt:

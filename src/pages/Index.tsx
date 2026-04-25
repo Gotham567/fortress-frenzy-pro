@@ -9,7 +9,6 @@ import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
-import AuditBanner from "@/components/AuditBanner";
 
 const Index = () => {
   return (
@@ -23,7 +22,6 @@ const Index = () => {
         <link rel="canonical" href="https://www.cyberconform.fr/" />
       </Helmet>
       <div className="min-h-screen bg-background">
-        <AuditBanner />
         <Navbar />
         <main>
           <HeroSection />
