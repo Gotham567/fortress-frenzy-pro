@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "sauvegardes-3-2-1-pra-pca-pme",
+    title: "Sauvegardes 3-2-1, PRA et PCA : guide pratique pour PME face aux ransomwares",
+    excerpt:
+      "Stratégie 3-2-1-1-0, sauvegardes immuables, RTO/RPO, PRA et PCA : guide complet pour protéger votre PME contre les ransomwares et incidents majeurs.",
+    date: "2 mai 2026",
+    readTime: "16 min",
+    tag: "Sauvegardes & PRA",
+  },
+  {
+    slug: "zero-trust-mfa-pme-guide",
+    title: "Zero Trust et MFA pour PME : déployer une architecture moderne sans exploser le budget",
+    excerpt:
+      "Principes Zero Trust, MFA résistant au phishing (FIDO2), feuille de route 90 jours, coûts indicatifs et conformité NIS2 pour les PME françaises.",
+    date: "30 avril 2026",
+    readTime: "16 min",
+    tag: "Zero Trust",
+  },
+  {
+    slug: "ebios-rm-methode-analyse-risques",
+    title: "Méthode EBIOS Risk Manager : guide pratique pour analyser ses risques cyber en 2026",
+    excerpt:
+      "Maîtrisez la méthode EBIOS RM de l'ANSSI : 5 ateliers, livrables, exemples concrets et articulation avec NIS2, ISO 27001 et DORA.",
+    date: "28 avril 2026",
+    readTime: "17 min",
+    tag: "EBIOS RM",
+  },
+  {
     slug: "directive-cer-resilience-entites-critiques",
     title: "Directive CER : résilience des entités critiques, le pendant physique de NIS2",
     excerpt:
