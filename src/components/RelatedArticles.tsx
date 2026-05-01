@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "Sauvegardes 3-2-1 et PRA : guide PME anti-ransomware",
+    description: "Stratégie 3-2-1-1-0, sauvegardes immuables, RTO/RPO, PRA et PCA pour résister aux attaques.",
+    slug: "sauvegardes-3-2-1-pra-pca-pme",
+    tag: "Sauvegardes & PRA",
+  },
+  {
+    title: "Zero Trust et MFA pour PME : guide pratique",
+    description: "Architecture Zero Trust, MFA résistant au phishing (FIDO2) et feuille de route 90 jours pour PME.",
+    slug: "zero-trust-mfa-pme-guide",
+    tag: "Zero Trust",
+  },
+  {
+    title: "EBIOS Risk Manager : guide pratique 2026",
+    description: "Méthode ANSSI en 5 ateliers pour analyser ses risques cyber et répondre à NIS2, ISO 27001 et DORA.",
+    slug: "ebios-rm-methode-analyse-risques",
+    tag: "EBIOS RM",
+  },
+  {
     title: "Directive CER : résilience des entités critiques",
     description: "Périmètre, obligations, articulation NIS2 et plan de conformité pour les entités critiques.",
     slug: "directive-cer-resilience-entites-critiques",

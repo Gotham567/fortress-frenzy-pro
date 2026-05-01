@@ -25,6 +25,9 @@ import SecuriteCloudPme from "./pages/articles/SecuriteCloudPme.tsx";
 import CyberResilienceAct from "./pages/articles/CyberResilienceAct.tsx";
 import CyberAssurancePme from "./pages/articles/CyberAssurancePme.tsx";
 import DirectiveCer from "./pages/articles/DirectiveCer.tsx";
+import EbiosRmMethode from "./pages/articles/EbiosRmMethode.tsx";
+import ZeroTrustMfaPme from "./pages/articles/ZeroTrustMfaPme.tsx";
+import SauvegardesPraPme from "./pages/articles/SauvegardesPraPme.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -59,6 +62,9 @@ const App = () => (
           <Route path="/actualites/cyber-resilience-act-guide" element={<CyberResilienceAct />} />
           <Route path="/actualites/cyber-assurance-pme-guide" element={<CyberAssurancePme />} />
           <Route path="/actualites/directive-cer-resilience-entites-critiques" element={<DirectiveCer />} />
+          <Route path="/actualites/ebios-rm-methode-analyse-risques" element={<EbiosRmMethode />} />
+          <Route path="/actualites/zero-trust-mfa-pme-guide" element={<ZeroTrustMfaPme />} />
+          <Route path="/actualites/sauvegardes-3-2-1-pra-pca-pme" element={<SauvegardesPraPme />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
