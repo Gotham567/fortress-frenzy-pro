@@ -28,6 +28,9 @@ import DirectiveCer from "./pages/articles/DirectiveCer.tsx";
 import EbiosRmMethode from "./pages/articles/EbiosRmMethode.tsx";
 import ZeroTrustMfaPme from "./pages/articles/ZeroTrustMfaPme.tsx";
 import SauvegardesPraPme from "./pages/articles/SauvegardesPraPme.tsx";
+import SocManageSiemPme from "./pages/articles/SocManageSiemPme.tsx";
+import PentestTestIntrusion from "./pages/articles/PentestTestIntrusion.tsx";
+import IaGenerativeRisquesCyber from "./pages/articles/IaGenerativeRisquesCyber.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -65,6 +68,9 @@ const App = () => (
           <Route path="/actualites/ebios-rm-methode-analyse-risques" element={<EbiosRmMethode />} />
           <Route path="/actualites/zero-trust-mfa-pme-guide" element={<ZeroTrustMfaPme />} />
           <Route path="/actualites/sauvegardes-3-2-1-pra-pca-pme" element={<SauvegardesPraPme />} />
+          <Route path="/actualites/soc-manage-siem-pme-guide" element={<SocManageSiemPme />} />
+          <Route path="/actualites/pentest-test-intrusion-guide" element={<PentestTestIntrusion />} />
+          <Route path="/actualites/ia-generative-risques-cybersecurite-entreprise" element={<IaGenerativeRisquesCyber />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
