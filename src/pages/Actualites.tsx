@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "ia-generative-risques-cybersecurite-entreprise",
+    title: "IA générative et cybersécurité en entreprise : risques, gouvernance et AI Act",
+    excerpt:
+      "Shadow AI, fuite de données vers ChatGPT, deepfakes, prompt injection : risques de l'IA générative et plan de gouvernance conforme AI Act, NIS2 et RGPD.",
+    date: "4 mai 2026",
+    readTime: "17 min",
+    tag: "IA & Cybersécurité",
+  },
+  {
+    slug: "pentest-test-intrusion-guide",
+    title: "Test d'intrusion (pentest) : guide complet 2026 pour PME et ETI",
+    excerpt:
+      "Types (boîte noire, grise, blanche), méthodologie PASSI/OWASP, livrables, prix, fréquence et obligations NIS2, ISO 27001 et DORA.",
+    date: "5 mai 2026",
+    readTime: "17 min",
+    tag: "Pentest",
+  },
+  {
+    slug: "soc-manage-siem-pme-guide",
+    title: "SOC managé et SIEM pour PME : détecter les attaques 24/7",
+    excerpt:
+      "Comprendre SOC managé (MSSP), SIEM, EDR/XDR et MDR : fonctionnement, KPIs (MTTD, MTTR), prix indicatifs et critères de choix pour une PME en 2026.",
+    date: "6 mai 2026",
+    readTime: "16 min",
+    tag: "SOC managé",
+  },
+  {
     slug: "sauvegardes-3-2-1-pra-pca-pme",
     title: "Sauvegardes 3-2-1, PRA et PCA : guide pratique pour PME face aux ransomwares",
     excerpt:
