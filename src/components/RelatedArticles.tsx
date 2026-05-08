@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "IA générative et cybersécurité : risques et AI Act",
+    description: "Shadow AI, deepfakes, prompt injection et plan de gouvernance IA conforme AI Act, NIS2 et RGPD.",
+    slug: "ia-generative-risques-cybersecurite-entreprise",
+    tag: "IA & Cybersécurité",
+  },
+  {
+    title: "Test d'intrusion (pentest) : guide complet 2026",
+    description: "Méthodologie PASSI/OWASP, types de pentests, livrables, prix et obligations NIS2, ISO 27001 et DORA.",
+    slug: "pentest-test-intrusion-guide",
+    tag: "Pentest",
+  },
+  {
+    title: "SOC managé et SIEM pour PME : détection 24/7",
+    description: "MSSP, SIEM, EDR/XDR, MDR : KPIs (MTTD, MTTR), prix et critères de choix pour une PME française.",
+    slug: "soc-manage-siem-pme-guide",
+    tag: "SOC managé",
+  },
+  {
     title: "Sauvegardes 3-2-1 et PRA : guide PME anti-ransomware",
     description: "Stratégie 3-2-1-1-0, sauvegardes immuables, RTO/RPO, PRA et PCA pour résister aux attaques.",
     slug: "sauvegardes-3-2-1-pra-pca-pme",
