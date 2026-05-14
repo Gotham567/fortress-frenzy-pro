@@ -31,6 +31,10 @@ import SauvegardesPraPme from "./pages/articles/SauvegardesPraPme.tsx";
 import SocManageSiemPme from "./pages/articles/SocManageSiemPme.tsx";
 import PentestTestIntrusion from "./pages/articles/PentestTestIntrusion.tsx";
 import IaGenerativeRisquesCyber from "./pages/articles/IaGenerativeRisquesCyber.tsx";
+import CyberSecuriteParis from "./pages/cities/CyberSecuriteParis.tsx";
+import CyberSecuriteLyon from "./pages/cities/CyberSecuriteLyon.tsx";
+import CyberSecuriteMarseille from "./pages/cities/CyberSecuriteMarseille.tsx";
+import CyberSecuriteBordeaux from "./pages/cities/CyberSecuriteBordeaux.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -71,6 +75,10 @@ const App = () => (
           <Route path="/actualites/soc-manage-siem-pme-guide" element={<SocManageSiemPme />} />
           <Route path="/actualites/pentest-test-intrusion-guide" element={<PentestTestIntrusion />} />
           <Route path="/actualites/ia-generative-risques-cybersecurite-entreprise" element={<IaGenerativeRisquesCyber />} />
+          <Route path="/cybersecurite-paris" element={<CyberSecuriteParis />} />
+          <Route path="/cybersecurite-lyon" element={<CyberSecuriteLyon />} />
+          <Route path="/cybersecurite-marseille" element={<CyberSecuriteMarseille />} />
+          <Route path="/cybersecurite-bordeaux" element={<CyberSecuriteBordeaux />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
