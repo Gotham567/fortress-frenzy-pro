@@ -19,9 +19,32 @@ const Footer = () => {
     { label: "Politique de confidentialité", href: "/politique-confidentialite" },
   ];
 
+  const cityLinks = [
+    { label: "Cybersécurité Paris", href: "/cybersecurite-paris" },
+    { label: "Cybersécurité Lyon", href: "/cybersecurite-lyon" },
+    { label: "Cybersécurité Marseille", href: "/cybersecurite-marseille" },
+    { label: "Cybersécurité Bordeaux", href: "/cybersecurite-bordeaux" },
+  ];
+
   return (
     <footer className="border-t border-border py-12" role="contentinfo">
       <div className="container mx-auto px-6">
+        <div className="mb-10 pb-10 border-b border-border">
+          <p className="text-xs font-mono uppercase tracking-widest text-primary mb-4 text-center md:text-left">
+            Nos implantations en France
+          </p>
+          <nav aria-label="Villes desservies" className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2">
+            {cityLinks.map((link) => (
+              <Link
+                key={link.label}
+                to={link.href}
+                className="text-sm text-muted-foreground hover:text-primary transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <Link to="/" className="flex items-center gap-2" aria-label="CyberConform - Accueil">
             <Shield className="h-5 w-5 text-primary" aria-hidden="true" />
