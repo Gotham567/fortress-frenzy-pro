@@ -6,6 +6,33 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "hds-hebergement-donnees-sante-certification",
+    title: "Certification HDS (Hébergement de Données de Santé) : guide complet 2026",
+    excerpt:
+      "Périmètre, 6 activités, articulation ISO 27001 / RGPD / NIS2, processus, coûts et durée pour obtenir la certification HDS en France.",
+    date: "14 mai 2026",
+    readTime: "16 min",
+    tag: "HDS Santé",
+  },
+  {
+    slug: "iam-gestion-identites-acces-pme",
+    title: "IAM et gestion des identités pour PME : guide complet 2026 (SSO, MFA, PAM, IGA)",
+    excerpt:
+      "SSO, MFA FIDO2, provisioning SCIM, PAM, recertification des droits et identités machines : structurer un programme IAM conforme NIS2 et ISO 27001.",
+    date: "12 mai 2026",
+    readTime: "17 min",
+    tag: "IAM",
+  },
+  {
+    slug: "securite-microsoft-365-entreprise-guide",
+    title: "Sécurité Microsoft 365 en entreprise : guide complet 2026",
+    excerpt:
+      "Durcir Microsoft 365 : MFA, Conditional Access, Defender, Purview, DLP, Secure Score, sauvegardes tierces et conformité NIS2 et RGPD.",
+    date: "10 mai 2026",
+    readTime: "18 min",
+    tag: "Microsoft 365",
+  },
+  {
     slug: "ia-generative-risques-cybersecurite-entreprise",
     title: "IA générative et cybersécurité en entreprise : risques, gouvernance et AI Act",
     excerpt:
