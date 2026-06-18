@@ -10,6 +10,24 @@ interface Article {
 
 const allArticles: Article[] = [
   {
+    title: "Certification HDS : guide complet 2026",
+    description: "Hébergement de données de santé : 6 activités, articulation ISO 27001, RGPD et NIS2, processus et coûts.",
+    slug: "hds-hebergement-donnees-sante-certification",
+    tag: "HDS Santé",
+  },
+  {
+    title: "IAM pour PME : SSO, MFA, PAM, IGA",
+    description: "Structurer un programme IAM conforme NIS2 et ISO 27001 : identités humaines et machines, recertification.",
+    slug: "iam-gestion-identites-acces-pme",
+    tag: "IAM",
+  },
+  {
+    title: "Sécurité Microsoft 365 : guide complet 2026",
+    description: "MFA, Conditional Access, Defender, Purview, DLP, sauvegardes tierces et Secure Score pour PME et ETI.",
+    slug: "securite-microsoft-365-entreprise-guide",
+    tag: "Microsoft 365",
+  },
+  {
     title: "IA générative et cybersécurité : risques et AI Act",
     description: "Shadow AI, deepfakes, prompt injection et plan de gouvernance IA conforme AI Act, NIS2 et RGPD.",
     slug: "ia-generative-risques-cybersecurite-entreprise",

@@ -31,6 +31,9 @@ import SauvegardesPraPme from "./pages/articles/SauvegardesPraPme.tsx";
 import SocManageSiemPme from "./pages/articles/SocManageSiemPme.tsx";
 import PentestTestIntrusion from "./pages/articles/PentestTestIntrusion.tsx";
 import IaGenerativeRisquesCyber from "./pages/articles/IaGenerativeRisquesCyber.tsx";
+import SecuriteMicrosoft365 from "./pages/articles/SecuriteMicrosoft365.tsx";
+import IamGestionIdentitesPme from "./pages/articles/IamGestionIdentitesPme.tsx";
+import HdsHebergementDonneesSante from "./pages/articles/HdsHebergementDonneesSante.tsx";
 import CyberSecuriteParis from "./pages/cities/CyberSecuriteParis.tsx";
 import CyberSecuriteLyon from "./pages/cities/CyberSecuriteLyon.tsx";
 import CyberSecuriteMarseille from "./pages/cities/CyberSecuriteMarseille.tsx";
@@ -75,6 +78,9 @@ const App = () => (
           <Route path="/actualites/soc-manage-siem-pme-guide" element={<SocManageSiemPme />} />
           <Route path="/actualites/pentest-test-intrusion-guide" element={<PentestTestIntrusion />} />
           <Route path="/actualites/ia-generative-risques-cybersecurite-entreprise" element={<IaGenerativeRisquesCyber />} />
+          <Route path="/actualites/securite-microsoft-365-entreprise-guide" element={<SecuriteMicrosoft365 />} />
+          <Route path="/actualites/iam-gestion-identites-acces-pme" element={<IamGestionIdentitesPme />} />
+          <Route path="/actualites/hds-hebergement-donnees-sante-certification" element={<HdsHebergementDonneesSante />} />
           <Route path="/cybersecurite-paris" element={<CyberSecuriteParis />} />
           <Route path="/cybersecurite-lyon" element={<CyberSecuriteLyon />} />
           <Route path="/cybersecurite-marseille" element={<CyberSecuriteMarseille />} />
