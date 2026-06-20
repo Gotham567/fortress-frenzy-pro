@@ -38,6 +38,16 @@ import CyberSecuriteParis from "./pages/cities/CyberSecuriteParis.tsx";
 import CyberSecuriteLyon from "./pages/cities/CyberSecuriteLyon.tsx";
 import CyberSecuriteMarseille from "./pages/cities/CyberSecuriteMarseille.tsx";
 import CyberSecuriteBordeaux from "./pages/cities/CyberSecuriteBordeaux.tsx";
+import CyberSecuriteToulouse from "./pages/cities/CyberSecuriteToulouse.tsx";
+import CyberSecuriteNantes from "./pages/cities/CyberSecuriteNantes.tsx";
+import CyberSecuriteLille from "./pages/cities/CyberSecuriteLille.tsx";
+import CyberSecuriteNice from "./pages/cities/CyberSecuriteNice.tsx";
+import CyberSecuriteRennes from "./pages/cities/CyberSecuriteRennes.tsx";
+import CyberSecuriteStrasbourg from "./pages/cities/CyberSecuriteStrasbourg.tsx";
+import CyberSecuriteMontpellier from "./pages/cities/CyberSecuriteMontpellier.tsx";
+import CyberSecuriteGrenoble from "./pages/cities/CyberSecuriteGrenoble.tsx";
+import CyberSecuriteRouen from "./pages/cities/CyberSecuriteRouen.tsx";
+import CyberSecuriteClermontFerrand from "./pages/cities/CyberSecuriteClermontFerrand.tsx";
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
@@ -85,6 +95,16 @@ const App = () => (
           <Route path="/cybersecurite-lyon" element={<CyberSecuriteLyon />} />
           <Route path="/cybersecurite-marseille" element={<CyberSecuriteMarseille />} />
           <Route path="/cybersecurite-bordeaux" element={<CyberSecuriteBordeaux />} />
+          <Route path="/cybersecurite-toulouse" element={<CyberSecuriteToulouse />} />
+          <Route path="/cybersecurite-nantes" element={<CyberSecuriteNantes />} />
+          <Route path="/cybersecurite-lille" element={<CyberSecuriteLille />} />
+          <Route path="/cybersecurite-nice" element={<CyberSecuriteNice />} />
+          <Route path="/cybersecurite-rennes" element={<CyberSecuriteRennes />} />
+          <Route path="/cybersecurite-strasbourg" element={<CyberSecuriteStrasbourg />} />
+          <Route path="/cybersecurite-montpellier" element={<CyberSecuriteMontpellier />} />
+          <Route path="/cybersecurite-grenoble" element={<CyberSecuriteGrenoble />} />
+          <Route path="/cybersecurite-rouen" element={<CyberSecuriteRouen />} />
+          <Route path="/cybersecurite-clermont-ferrand" element={<CyberSecuriteClermontFerrand />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
