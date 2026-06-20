@@ -33,7 +33,7 @@ serve(async (req) => {
       },
       body: JSON.stringify({
         from: 'CyberConform <onboarding@resend.dev>',
-        to: ['lamoinematieu@gmail.com'],
+        to: ['vraih1915@gmail.com'],
         subject: `Nouveau contact - ${prenom} ${nom}`,
         html: `
           <h2>Nouvelle demande de contact</h2>
