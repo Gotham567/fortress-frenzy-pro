@@ -85,7 +85,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-            className="hidden lg:block"
+            className="w-full lg:w-auto"
           >
             <div className="rounded-2xl border border-primary/20 bg-card/60 backdrop-blur-md shadow-xl p-8">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5">
