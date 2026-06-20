@@ -17,7 +17,7 @@ interface ArticleLayoutProps {
 }
 
 const ArticleLayout = ({ title, description, date, dateISO, readTime, tag, slug, children }: ArticleLayoutProps) => {
-  const url = `https://www.cyberconform.fr/actualites/${slug}`;
+  const url = `https://cyberconform.fr/actualites/${slug}`;
 
   return (
     <>
@@ -45,12 +45,12 @@ const ArticleLayout = ({ title, description, date, dateISO, readTime, tag, slug,
             author: {
               "@type": "Organization",
               name: "CyberConform",
-              url: "https://www.cyberconform.fr",
+              url: "https://cyberconform.fr",
             },
             publisher: {
               "@type": "Organization",
               name: "CyberConform",
-              url: "https://www.cyberconform.fr",
+              url: "https://cyberconform.fr",
             },
             mainEntityOfPage: {
               "@type": "WebPage",

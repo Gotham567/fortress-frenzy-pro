@@ -267,7 +267,7 @@ const Actualites = () => {
           name="description"
           content="Articles experts sur la cybersécurité, la conformité NIS2 et le RGPD. Guides pratiques pour les PME : directive NIS2, audit RGPD, mise en conformité."
         />
-        <link rel="canonical" href="https://www.cyberconform.fr/actualites" />
+        <link rel="canonical" href="https://cyberconform.fr/actualites" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -30,7 +30,7 @@ const services = [
 ];
 
 const CityLandingPage = ({ data }: Props) => {
-  const url = `https://www.cyberconform.fr/cybersecurite-${data.citySlug}`;
+  const url = `https://cyberconform.fr/cybersecurite-${data.citySlug}`;
   const title = `Cybersécurité ${data.city} — Audit, NIS2, RGPD | CyberConform`;
   const description = `Cabinet de cybersécurité à ${data.city} (${data.region}). Audit, mise en conformité NIS2 et RGPD, pentest et RSSI externalisé pour les PME et ETI ${data.region.toLowerCase()}.`;
 
@@ -77,7 +77,7 @@ const CityLandingPage = ({ data }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.cyberconform.fr/" },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://cyberconform.fr/" },
       { "@type": "ListItem", position: 2, name: `Cybersécurité ${data.city}`, item: url },
     ],
   };

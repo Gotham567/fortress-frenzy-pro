@@ -8,7 +8,7 @@ const MentionsLegales = () => {
       <Helmet>
         <title>Mentions Légales — CyberConform</title>
         <meta name="description" content="Mentions légales du site CyberConform, cabinet de cybersécurité à Paris. Informations sur l'éditeur, l'hébergeur et les conditions d'utilisation." />
-        <link rel="canonical" href="https://www.cyberconform.fr/mentions-legales" />
+        <link rel="canonical" href="https://cyberconform.fr/mentions-legales" />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
       <div className="min-h-screen bg-background">

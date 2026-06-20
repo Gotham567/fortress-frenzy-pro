@@ -8,7 +8,7 @@ const PolitiqueConfidentialite = () => {
       <Helmet>
         <title>Politique de Confidentialité — CyberConform</title>
         <meta name="description" content="Politique de confidentialité de CyberConform : collecte, traitement et protection de vos données personnelles conformément au RGPD." />
-        <link rel="canonical" href="https://www.cyberconform.fr/politique-confidentialite" />
+        <link rel="canonical" href="https://cyberconform.fr/politique-confidentialite" />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
       <div className="min-h-screen bg-background">

@@ -20,7 +20,7 @@ const Index = () => {
           name="description"
           content="Mise en conformité NIS2 et RGPD pour PME et ETI. CyberConform, cabinet de cybersécurité à Paris : audits, tests d'intrusion, conseil NIS2 et accompagnement RGPD. Diagnostic gratuit."
         />
-        <link rel="canonical" href="https://www.cyberconform.fr/" />
+        <link rel="canonical" href="https://cyberconform.fr/" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Navbar />
