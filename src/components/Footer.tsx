@@ -24,6 +24,16 @@ const Footer = () => {
     { label: "Cybersécurité Lyon", href: "/cybersecurite-lyon" },
     { label: "Cybersécurité Marseille", href: "/cybersecurite-marseille" },
     { label: "Cybersécurité Bordeaux", href: "/cybersecurite-bordeaux" },
+    { label: "Cybersécurité Toulouse", href: "/cybersecurite-toulouse" },
+    { label: "Cybersécurité Nantes", href: "/cybersecurite-nantes" },
+    { label: "Cybersécurité Lille", href: "/cybersecurite-lille" },
+    { label: "Cybersécurité Nice", href: "/cybersecurite-nice" },
+    { label: "Cybersécurité Rennes", href: "/cybersecurite-rennes" },
+    { label: "Cybersécurité Strasbourg", href: "/cybersecurite-strasbourg" },
+    { label: "Cybersécurité Montpellier", href: "/cybersecurite-montpellier" },
+    { label: "Cybersécurité Grenoble", href: "/cybersecurite-grenoble" },
+    { label: "Cybersécurité Rouen", href: "/cybersecurite-rouen" },
+    { label: "Cybersécurité Clermont-Ferrand", href: "/cybersecurite-clermont-ferrand" },
   ];
 
   return (

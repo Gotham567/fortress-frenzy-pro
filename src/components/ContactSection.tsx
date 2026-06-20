@@ -121,6 +121,20 @@ const ContactSection = () => {
               </div>
             </div>
             <div>
+              <label htmlFor="contact-societe" className="mb-1.5 block text-xs font-mono uppercase tracking-wider text-muted-foreground">
+                Société *
+              </label>
+              <input
+                id="contact-societe"
+                type="text"
+                name="societe"
+                autoComplete="organization"
+                className="w-full rounded-md border border-border bg-secondary px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:border-primary/50 focus:outline-none focus:ring-1 focus:ring-primary/30"
+                placeholder="Nom de votre entreprise"
+                required
+              />
+            </div>
+            <div>
               <label htmlFor="contact-email" className="mb-1.5 block text-xs font-mono uppercase tracking-wider text-muted-foreground">
                 Email professionnel
               </label>
