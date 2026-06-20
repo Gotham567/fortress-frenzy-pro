@@ -73,7 +73,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center gap-2">
             <p className="text-xs text-muted-foreground text-center">
-              © 2026 CyberConform. Tous droits réservés.
+              © {new Date().getFullYear()} CyberConform. Tous droits réservés.
               <br />
               Cabinet français de cybersécurité à Paris.
             </p>

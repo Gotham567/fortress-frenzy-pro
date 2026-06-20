@@ -9,6 +9,7 @@ import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
+import CookieConsent from "@/components/CookieConsent";
 
 const Index = () => {
   return (
@@ -34,6 +35,7 @@ const Index = () => {
         </main>
         <Footer />
         <FloatingCTA />
+        <CookieConsent />
       </div>
     </>
   );

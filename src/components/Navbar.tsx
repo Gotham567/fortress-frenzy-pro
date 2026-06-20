@@ -55,10 +55,12 @@ const Navbar = () => {
             )
           )}
           <a
-            href={getHref("#contact")}
+            href="https://calendly.com/many-cyberconform/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-md bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[var(--shadow-glow)]"
           >
-            Nous contacter
+            Audit gratuit
           </a>
         </div>
 
@@ -89,11 +91,13 @@ const Navbar = () => {
                 )
               )}
               <a
-                href={getHref("#contact")}
+                href="https://calendly.com/many-cyberconform/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="rounded-md bg-primary px-5 py-3 text-center text-sm font-semibold text-primary-foreground mt-2 min-h-[44px] flex items-center justify-center"
               >
-                Nous contacter
+                Audit gratuit
               </a>
             </div>
           </motion.div>
