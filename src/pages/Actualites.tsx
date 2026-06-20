@@ -6,6 +6,51 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "budget-cybersecurite-pme-2026",
+    title: "Budget cybersécurité PME 2026 : combien dépenser et comment prioriser",
+    excerpt:
+      "Fourchettes budgétaires par taille d'entreprise, modèle de calcul du ROI cyber, répartition prévention/détection/réponse et leviers pour optimiser chaque euro investi.",
+    date: "18 juin 2026",
+    readTime: "15 min",
+    tag: "Budget & ROI",
+  },
+  {
+    slug: "red-team-blue-team-exercice-securite",
+    title: "Red Team / Blue Team : exercices de sécurité pour évaluer votre résilience",
+    excerpt:
+      "Comprendre les exercices Red Team, Blue Team et Purple Team : différences avec le pentest classique, déroulement, métriques MTTD/MTTR et mise en place pour les PME et ETI.",
+    date: "16 juin 2026",
+    readTime: "14 min",
+    tag: "Red Team",
+  },
+  {
+    slug: "threat-intelligence-cti-entreprise",
+    title: "Threat Intelligence (CTI) en entreprise : exploiter les renseignements sur les menaces",
+    excerpt:
+      "Guide pratique sur la Cyber Threat Intelligence : sources OSINT/CLOSINT, intégration SIEM/SOAR, flux MISP, indicateurs de compromission (IoC) et programme CTI adapté aux PME.",
+    date: "14 juin 2026",
+    readTime: "14 min",
+    tag: "Threat Intelligence",
+  },
+  {
+    slug: "gestion-crise-cyber-plan-communication",
+    title: "Gestion de crise cyber : plan de réponse et communication de crise",
+    excerpt:
+      "Construire un plan de gestion de crise cyber efficace : cellule de crise, chaîne de commandement, communication interne/externe, obligations de notification ANSSI/CNIL et retour d'expérience.",
+    date: "12 juin 2026",
+    readTime: "13 min",
+    tag: "Gestion de crise",
+  },
+  {
+    slug: "securite-chaine-approvisionnement-risques-tiers",
+    title: "Sécurité de la chaîne d'approvisionnement : gérer les risques cyber des tiers",
+    excerpt:
+      "Attaques supply chain (SolarWinds, XZ Utils), questionnaires de sécurité fournisseurs, SBOM, clauses contractuelles NIS2 et programme TPRM adapté aux PME et ETI.",
+    date: "10 juin 2026",
+    readTime: "14 min",
+    tag: "Risques tiers",
+  },
+  {
     slug: "hds-hebergement-donnees-sante-certification",
     title: "Certification HDS (Hébergement de Données de Santé) : guide complet 2026",
     excerpt:

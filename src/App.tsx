@@ -51,6 +51,11 @@ import CyberSecuriteClermontFerrand from "./pages/cities/CyberSecuriteClermontFe
 import MentionsLegales from "./pages/MentionsLegales.tsx";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import BudgetCybersecuritePme from "./pages/articles/BudgetCybersecuritePme.tsx";
+import RedTeamBlueTeam from "./pages/articles/RedTeamBlueTeam.tsx";
+import ThreatIntelligenceCti from "./pages/articles/ThreatIntelligenceCti.tsx";
+import GestionCriseCyber from "./pages/articles/GestionCriseCyber.tsx";
+import SecuriteChaineApprovisionnement from "./pages/articles/SecuriteChaineApprovisionnement.tsx";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -91,6 +96,11 @@ const App = () => (
           <Route path="/actualites/securite-microsoft-365-entreprise-guide" element={<SecuriteMicrosoft365 />} />
           <Route path="/actualites/iam-gestion-identites-acces-pme" element={<IamGestionIdentitesPme />} />
           <Route path="/actualites/hds-hebergement-donnees-sante-certification" element={<HdsHebergementDonneesSante />} />
+          <Route path="/actualites/budget-cybersecurite-pme-2026" element={<BudgetCybersecuritePme />} />
+          <Route path="/actualites/red-team-blue-team-exercice-securite" element={<RedTeamBlueTeam />} />
+          <Route path="/actualites/threat-intelligence-cti-entreprise" element={<ThreatIntelligenceCti />} />
+          <Route path="/actualites/gestion-crise-cyber-plan-communication" element={<GestionCriseCyber />} />
+          <Route path="/actualites/securite-chaine-approvisionnement-risques-tiers" element={<SecuriteChaineApprovisionnement />} />
           <Route path="/cybersecurite-paris" element={<CyberSecuriteParis />} />
           <Route path="/cybersecurite-lyon" element={<CyberSecuriteLyon />} />
           <Route path="/cybersecurite-marseille" element={<CyberSecuriteMarseille />} />
