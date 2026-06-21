@@ -134,6 +134,13 @@ import RedTeamBlueTeam from "./pages/articles/RedTeamBlueTeam.tsx";
 import ThreatIntelligenceCti from "./pages/articles/ThreatIntelligenceCti.tsx";
 import GestionCriseCyber from "./pages/articles/GestionCriseCyber.tsx";
 import SecuriteChaineApprovisionnement from "./pages/articles/SecuriteChaineApprovisionnement.tsx";
+import SanctionsCnil from "./pages/articles/SanctionsCnil.tsx";
+import RegistreTraitements from "./pages/articles/RegistreTraitements.tsx";
+import Nis2SousTraitants from "./pages/articles/Nis2SousTraitants.tsx";
+import ViolationDonneesNotification from "./pages/articles/ViolationDonneesNotification.tsx";
+import PssiGuide from "./pages/articles/PssiGuide.tsx";
+import DpoObligations from "./pages/articles/DpoObligations.tsx";
+import Nis2Transport from "./pages/articles/Nis2Transport.tsx";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -179,6 +186,13 @@ const App = () => (
           <Route path="/actualites/threat-intelligence-cti-entreprise" element={<ThreatIntelligenceCti />} />
           <Route path="/actualites/gestion-crise-cyber-plan-communication" element={<GestionCriseCyber />} />
           <Route path="/actualites/securite-chaine-approvisionnement-risques-tiers" element={<SecuriteChaineApprovisionnement />} />
+          <Route path="/actualites/sanctions-cnil-rgpd-bilan-2025-2026" element={<SanctionsCnil />} />
+          <Route path="/actualites/registre-traitements-rgpd-modele-guide" element={<RegistreTraitements />} />
+          <Route path="/actualites/nis2-sous-traitants-supply-chain-obligations" element={<Nis2SousTraitants />} />
+          <Route path="/actualites/violation-donnees-notification-cnil-72h" element={<ViolationDonneesNotification />} />
+          <Route path="/actualites/pssi-politique-securite-si-guide-pme" element={<PssiGuide />} />
+          <Route path="/actualites/dpo-externalise-missions-obligations-rgpd" element={<DpoObligations />} />
+          <Route path="/actualites/nis2-secteur-transport-logistique-obligations" element={<Nis2Transport />} />
           <Route path="/cybersecurite-paris" element={<CyberSecuriteParis />} />
           <Route path="/cybersecurite-lyon" element={<CyberSecuriteLyon />} />
           <Route path="/cybersecurite-marseille" element={<CyberSecuriteMarseille />} />

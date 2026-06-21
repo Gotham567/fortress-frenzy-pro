@@ -6,6 +6,69 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "sanctions-cnil-rgpd-bilan-2025-2026",
+    title: "Sanctions CNIL 2025-2026 : bilans, montants et secteurs les plus touchés",
+    excerpt:
+      "Analyse des sanctions CNIL prononcées en 2025-2026 : montants records, secteurs ciblés (santé, e-commerce, tech), motifs principaux (cookies, sécurité, droits) et enseignements pour votre conformité RGPD.",
+    date: "20 juin 2026",
+    readTime: "13 min",
+    tag: "Sanctions CNIL",
+  },
+  {
+    slug: "registre-traitements-rgpd-modele-guide",
+    title: "Registre des traitements RGPD : obligations, structure et modèle 2026",
+    excerpt:
+      "Guide complet sur le registre des traitements RGPD (art. 30) : qui doit le tenir, que doit-il contenir, comment le structurer, erreurs fréquentes et modèle pour PME.",
+    date: "18 juin 2026",
+    readTime: "14 min",
+    tag: "RGPD pratique",
+  },
+  {
+    slug: "violation-donnees-notification-cnil-72h",
+    title: "Violation de données RGPD : notifier la CNIL dans les 72 heures",
+    excerpt:
+      "Procédure complète de notification d'une violation de données à la CNIL et aux personnes concernées : critères de déclenchement, délais, contenu de la notification et portail Notif.",
+    date: "16 juin 2026",
+    readTime: "12 min",
+    tag: "Violation de données",
+  },
+  {
+    slug: "pssi-politique-securite-si-guide-pme",
+    title: "PSSI : élaborer sa politique de sécurité des SI — guide pratique PME 2026",
+    excerpt:
+      "Guide complet pour rédiger une PSSI efficace : structure, contenu obligatoire, méthode de rédaction en 5 étapes, gouvernance et articulation avec NIS2 et ISO 27001.",
+    date: "14 juin 2026",
+    readTime: "15 min",
+    tag: "PSSI",
+  },
+  {
+    slug: "dpo-externalise-missions-obligations-rgpd",
+    title: "DPO externalisé : missions, obligations légales RGPD et comment le choisir",
+    excerpt:
+      "Guide complet sur le DPO (Délégué à la Protection des Données) : qui doit en nommer un, missions obligatoires, indépendance, responsabilité, DPO interne vs externalisé et critères de sélection.",
+    date: "12 juin 2026",
+    readTime: "13 min",
+    tag: "DPO",
+  },
+  {
+    slug: "nis2-sous-traitants-supply-chain-obligations",
+    title: "NIS2 et sous-traitants : obligations supply chain et clauses contractuelles",
+    excerpt:
+      "NIS2 et sécurité de la chaîne d'approvisionnement : obligations vis-à-vis des fournisseurs, clauses contractuelles à exiger, questionnaires TPRM et programme de gestion des risques tiers.",
+    date: "10 juin 2026",
+    readTime: "14 min",
+    tag: "NIS2",
+  },
+  {
+    slug: "nis2-secteur-transport-logistique-obligations",
+    title: "NIS2 et secteur transport-logistique : entités concernées et obligations 2026",
+    excerpt:
+      "Guide NIS2 pour le transport : entités concernées (ferroviaire, aérien, routier, maritime), obligations de cybersécurité, notification des incidents, enjeux IT/OT et calendrier de mise en conformité.",
+    date: "8 juin 2026",
+    readTime: "13 min",
+    tag: "NIS2 Transport",
+  },
+  {
     slug: "budget-cybersecurite-pme-2026",
     title: "Budget cybersécurité PME 2026 : combien dépenser et comment prioriser",
     excerpt:
