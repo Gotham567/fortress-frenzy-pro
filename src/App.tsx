@@ -34,6 +34,40 @@ import IaGenerativeRisquesCyber from "./pages/articles/IaGenerativeRisquesCyber.
 import SecuriteMicrosoft365 from "./pages/articles/SecuriteMicrosoft365.tsx";
 import IamGestionIdentitesPme from "./pages/articles/IamGestionIdentitesPme.tsx";
 import HdsHebergementDonneesSante from "./pages/articles/HdsHebergementDonneesSante.tsx";
+import CyberSecuriteMulhouse from "./pages/cities/CyberSecuriteMulhouse.tsx";
+import CyberSecuriteChambery from "./pages/cities/CyberSecuriteChambery.tsx";
+import CyberSecuriteNiort from "./pages/cities/CyberSecuriteNiort.tsx";
+import CyberSecuriteQuimper from "./pages/cities/CyberSecuriteQuimper.tsx";
+import CyberSecuriteLorient from "./pages/cities/CyberSecuriteLorient.tsx";
+import CyberSecuriteVannes from "./pages/cities/CyberSecuriteVannes.tsx";
+import CyberSecuriteSaintNazaire from "./pages/cities/CyberSecuriteSaintNazaire.tsx";
+import CyberSecuriteCalais from "./pages/cities/CyberSecuriteCalais.tsx";
+import CyberSecuriteValenciennes from "./pages/cities/CyberSecuriteValenciennes.tsx";
+import CyberSecuriteArras from "./pages/cities/CyberSecuriteArras.tsx";
+import CyberSecuriteBourges from "./pages/cities/CyberSecuriteBourges.tsx";
+import CyberSecuriteChartres from "./pages/cities/CyberSecuriteChartres.tsx";
+import CyberSecuriteCherbourg from "./pages/cities/CyberSecuriteCherbourg.tsx";
+import CyberSecuriteLaval from "./pages/cities/CyberSecuriteLaval.tsx";
+import CyberSecuriteCholet from "./pages/cities/CyberSecuriteCholet.tsx";
+import CyberSecuriteAngouleme from "./pages/cities/CyberSecuriteAngouleme.tsx";
+import CyberSecuritePerigueux from "./pages/cities/CyberSecuritePerigueux.tsx";
+import CyberSecuriteTarbes from "./pages/cities/CyberSecuriteTarbes.tsx";
+import CyberSecuriteAlbi from "./pages/cities/CyberSecuriteAlbi.tsx";
+import CyberSecuriteBeziers from "./pages/cities/CyberSecuriteBeziers.tsx";
+import CyberSecuriteCarcassonne from "./pages/cities/CyberSecuriteCarcassonne.tsx";
+import CyberSecuriteNarbonne from "./pages/cities/CyberSecuriteNarbonne.tsx";
+import CyberSecuriteAntibes from "./pages/cities/CyberSecuriteAntibes.tsx";
+import CyberSecuriteCannes from "./pages/cities/CyberSecuriteCannes.tsx";
+import CyberSecuriteFrejus from "./pages/cities/CyberSecuriteFrejus.tsx";
+import CyberSecuriteAjaccio from "./pages/cities/CyberSecuriteAjaccio.tsx";
+import CyberSecuriteBastia from "./pages/cities/CyberSecuriteBastia.tsx";
+import CyberSecuriteBelfort from "./pages/cities/CyberSecuriteBelfort.tsx";
+import CyberSecuriteAuxerre from "./pages/cities/CyberSecuriteAuxerre.tsx";
+import CyberSecuriteThionville from "./pages/cities/CyberSecuriteThionville.tsx";
+import CyberSecuriteEvreux from "./pages/cities/CyberSecuriteEvreux.tsx";
+import CyberSecuriteVersailles from "./pages/cities/CyberSecuriteVersailles.tsx";
+import CyberSecuriteCreteil from "./pages/cities/CyberSecuriteCreteil.tsx";
+import CyberSecuriteNanterre from "./pages/cities/CyberSecuriteNanterre.tsx";
 import CyberSecuriteToulon from "./pages/cities/CyberSecuriteToulon.tsx";
 import CyberSecuriteAixEnProvence from "./pages/cities/CyberSecuriteAixEnProvence.tsx";
 import CyberSecuriteBrest from "./pages/cities/CyberSecuriteBrest.tsx";
@@ -174,6 +208,40 @@ const App = () => (
           <Route path="/cybersecurite-poitiers" element={<CyberSecuritePoitiers />} />
           <Route path="/cybersecurite-dunkerque" element={<CyberSecuriteDunkerque />} />
           <Route path="/cybersecurite-troyes" element={<CyberSecuriteTroyes />} />
+                    <Route path="/cybersecurite-mulhouse" element={<CyberSecuriteMulhouse />} />
+          <Route path="/cybersecurite-chambery" element={<CyberSecuriteChambery />} />
+          <Route path="/cybersecurite-niort" element={<CyberSecuriteNiort />} />
+          <Route path="/cybersecurite-quimper" element={<CyberSecuriteQuimper />} />
+          <Route path="/cybersecurite-lorient" element={<CyberSecuriteLorient />} />
+          <Route path="/cybersecurite-vannes" element={<CyberSecuriteVannes />} />
+          <Route path="/cybersecurite-saint-nazaire" element={<CyberSecuriteSaintNazaire />} />
+          <Route path="/cybersecurite-calais" element={<CyberSecuriteCalais />} />
+          <Route path="/cybersecurite-valenciennes" element={<CyberSecuriteValenciennes />} />
+          <Route path="/cybersecurite-arras" element={<CyberSecuriteArras />} />
+          <Route path="/cybersecurite-bourges" element={<CyberSecuriteBourges />} />
+          <Route path="/cybersecurite-chartres" element={<CyberSecuriteChartres />} />
+          <Route path="/cybersecurite-cherbourg" element={<CyberSecuriteCherbourg />} />
+          <Route path="/cybersecurite-laval" element={<CyberSecuriteLaval />} />
+          <Route path="/cybersecurite-cholet" element={<CyberSecuriteCholet />} />
+          <Route path="/cybersecurite-angouleme" element={<CyberSecuriteAngouleme />} />
+          <Route path="/cybersecurite-perigueux" element={<CyberSecuritePerigueux />} />
+          <Route path="/cybersecurite-tarbes" element={<CyberSecuriteTarbes />} />
+          <Route path="/cybersecurite-albi" element={<CyberSecuriteAlbi />} />
+          <Route path="/cybersecurite-beziers" element={<CyberSecuriteBeziers />} />
+          <Route path="/cybersecurite-carcassonne" element={<CyberSecuriteCarcassonne />} />
+          <Route path="/cybersecurite-narbonne" element={<CyberSecuriteNarbonne />} />
+          <Route path="/cybersecurite-antibes" element={<CyberSecuriteAntibes />} />
+          <Route path="/cybersecurite-cannes" element={<CyberSecuriteCannes />} />
+          <Route path="/cybersecurite-frejus" element={<CyberSecuriteFrejus />} />
+          <Route path="/cybersecurite-ajaccio" element={<CyberSecuriteAjaccio />} />
+          <Route path="/cybersecurite-bastia" element={<CyberSecuriteBastia />} />
+          <Route path="/cybersecurite-belfort" element={<CyberSecuriteBelfort />} />
+          <Route path="/cybersecurite-auxerre" element={<CyberSecuriteAuxerre />} />
+          <Route path="/cybersecurite-thionville" element={<CyberSecuriteThionville />} />
+          <Route path="/cybersecurite-evreux" element={<CyberSecuriteEvreux />} />
+          <Route path="/cybersecurite-versailles" element={<CyberSecuriteVersailles />} />
+          <Route path="/cybersecurite-creteil" element={<CyberSecuriteCreteil />} />
+          <Route path="/cybersecurite-nanterre" element={<CyberSecuriteNanterre />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
