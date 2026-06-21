@@ -34,6 +34,22 @@ import IaGenerativeRisquesCyber from "./pages/articles/IaGenerativeRisquesCyber.
 import SecuriteMicrosoft365 from "./pages/articles/SecuriteMicrosoft365.tsx";
 import IamGestionIdentitesPme from "./pages/articles/IamGestionIdentitesPme.tsx";
 import HdsHebergementDonneesSante from "./pages/articles/HdsHebergementDonneesSante.tsx";
+import CyberSecuriteBruxelles from "./pages/cities/CyberSecuriteBruxelles.tsx";
+import CyberSecuriteLiege from "./pages/cities/CyberSecuriteLiege.tsx";
+import CyberSecuriteNamur from "./pages/cities/CyberSecuriteNamur.tsx";
+import CyberSecuriteCharleroi from "./pages/cities/CyberSecuriteCharleroi.tsx";
+import CyberSecuriteMons from "./pages/cities/CyberSecuriteMons.tsx";
+import CyberSecuriteGeneve from "./pages/cities/CyberSecuriteGeneve.tsx";
+import CyberSecuriteLausanne from "./pages/cities/CyberSecuriteLausanne.tsx";
+import CyberSecuriteFribourg from "./pages/cities/CyberSecuriteFribourg.tsx";
+import CyberSecuriteNeuchatel from "./pages/cities/CyberSecuriteNeuchatel.tsx";
+import CyberSecuriteLuxembourg from "./pages/cities/CyberSecuriteLuxembourg.tsx";
+import CyberSecuriteEschSurAlzette from "./pages/cities/CyberSecuriteEschSurAlzette.tsx";
+import CyberSecuriteMontreal from "./pages/cities/CyberSecuriteMontreal.tsx";
+import CyberSecuriteQuebec from "./pages/cities/CyberSecuriteQuebec.tsx";
+import CyberSecuriteGatineau from "./pages/cities/CyberSecuriteGatineau.tsx";
+import CyberSecuriteSherbrooke from "./pages/cities/CyberSecuriteSherbrooke.tsx";
+import CyberSecuriteMonaco from "./pages/cities/CyberSecuriteMonaco.tsx";
 import CyberSecuriteMulhouse from "./pages/cities/CyberSecuriteMulhouse.tsx";
 import CyberSecuriteChambery from "./pages/cities/CyberSecuriteChambery.tsx";
 import CyberSecuriteNiort from "./pages/cities/CyberSecuriteNiort.tsx";
@@ -242,6 +258,22 @@ const App = () => (
           <Route path="/cybersecurite-versailles" element={<CyberSecuriteVersailles />} />
           <Route path="/cybersecurite-creteil" element={<CyberSecuriteCreteil />} />
           <Route path="/cybersecurite-nanterre" element={<CyberSecuriteNanterre />} />
+                    <Route path="/cybersecurite-bruxelles" element={<CyberSecuriteBruxelles />} />
+          <Route path="/cybersecurite-liege" element={<CyberSecuriteLiege />} />
+          <Route path="/cybersecurite-namur" element={<CyberSecuriteNamur />} />
+          <Route path="/cybersecurite-charleroi" element={<CyberSecuriteCharleroi />} />
+          <Route path="/cybersecurite-mons" element={<CyberSecuriteMons />} />
+          <Route path="/cybersecurite-geneve" element={<CyberSecuriteGeneve />} />
+          <Route path="/cybersecurite-lausanne" element={<CyberSecuriteLausanne />} />
+          <Route path="/cybersecurite-fribourg" element={<CyberSecuriteFribourg />} />
+          <Route path="/cybersecurite-neuchatel" element={<CyberSecuriteNeuchatel />} />
+          <Route path="/cybersecurite-luxembourg" element={<CyberSecuriteLuxembourg />} />
+          <Route path="/cybersecurite-esch-sur-alzette" element={<CyberSecuriteEschSurAlzette />} />
+          <Route path="/cybersecurite-montreal" element={<CyberSecuriteMontreal />} />
+          <Route path="/cybersecurite-quebec" element={<CyberSecuriteQuebec />} />
+          <Route path="/cybersecurite-gatineau" element={<CyberSecuriteGatineau />} />
+          <Route path="/cybersecurite-sherbrooke" element={<CyberSecuriteSherbrooke />} />
+          <Route path="/cybersecurite-monaco" element={<CyberSecuriteMonaco />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
