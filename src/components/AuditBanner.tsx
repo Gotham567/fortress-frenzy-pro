@@ -15,7 +15,7 @@ const AuditBanner = () => {
             🎯 Audit cybersécurité gratuit de 15 min — Identifiez vos risques sans engagement
           </span>
           <a
-            href="https://calendly.com/many-cyberconform/30min"
+            href="https://calendly.com/lakaoub/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 inline-flex items-center gap-1 rounded-md bg-primary-foreground/20 px-3 py-1 text-xs font-bold uppercase tracking-wider transition-colors hover:bg-primary-foreground/30"
