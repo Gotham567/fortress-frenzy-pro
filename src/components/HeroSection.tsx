@@ -120,7 +120,7 @@ const HeroSection = () => {
               </div>
 
               <a
-                href="https://calendly.com/many-cyberconform/30min"
+                href="https://calendly.com/lakaoub/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-primary-foreground shadow-lg transition-all hover:shadow-[var(--shadow-glow)] hover:scale-[1.02] active:scale-[0.98]"

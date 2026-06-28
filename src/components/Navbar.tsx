@@ -55,7 +55,7 @@ const Navbar = () => {
             )
           )}
           <a
-            href="https://calendly.com/many-cyberconform/30min"
+            href="https://calendly.com/lakaoub/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-md bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-all hover:shadow-[var(--shadow-glow)]"
@@ -91,7 +91,7 @@ const Navbar = () => {
                 )
               )}
               <a
-                href="https://calendly.com/many-cyberconform/30min"
+                href="https://calendly.com/lakaoub/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

@@ -80,7 +80,7 @@ const AuditGratuitSection = () => {
                 </p>
 
                 <a
-                  href="https://calendly.com/many-cyberconform/30min"
+                  href="https://calendly.com/lakaoub/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-bold text-primary-foreground shadow-lg transition-all hover:shadow-[var(--shadow-glow)] hover:scale-[1.02] active:scale-[0.98]"
