@@ -26,7 +26,7 @@ const MentionsLegales = () => {
                     <li><strong className="text-foreground">Raison sociale :</strong> CyberConform</li>
                     <li><strong className="text-foreground">Forme juridique :</strong> SAS (Société par Actions Simplifiée)</li>
                     <li><strong className="text-foreground">Siège social :</strong> 75 Avenue des Champs-Élysées, 75008 Paris, France</li>
-                    <li><strong className="text-foreground">Téléphone :</strong> +33 1 42 68 53 00</li>
+                    <li><strong className="text-foreground">Téléphone :</strong> +33 7 69 32 30 19</li>
                     <li><strong className="text-foreground">Email :</strong> contact@cyberconform.fr</li>
                     <li><strong className="text-foreground">Directeur de la publication :</strong> Le représentant légal de CyberConform</li>
                   </ul>
