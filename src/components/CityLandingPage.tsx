@@ -135,10 +135,10 @@ const CityLandingPage = ({ data }: Props) => {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="tel:+33142685300"
+                  href="tel:+33769323019"
                   className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3 text-sm font-semibold text-foreground hover:border-primary/40 hover:bg-primary/5 transition-all min-h-[44px]"
                 >
-                  <Phone className="h-4 w-4" /> 01 42 68 53 00
+                  <Phone className="h-4 w-4" /> 07 69 32 30 19
                 </a>
               </div>
             </section>

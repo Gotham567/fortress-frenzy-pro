@@ -87,7 +87,7 @@ const faqs = [
     category: "risques",
     question: "Mon entreprise a été piratée, que faire en urgence ?",
     answer:
-      "Les premières heures sont critiques. Étape 1 : isolez les systèmes compromis du réseau (ne les éteignez pas). Étape 2 : contactez immédiatement notre cellule de crise au +33 1 42 68 53 00 (24/7). Étape 3 : ne payez jamais de rançon. Étape 4 : préservez toutes les preuves numériques. Nous prenons en charge la suite : analyse forensique, restauration, notification aux autorités (ANSSI, CNIL) et plan de reprise d'activité.",
+      "Les premières heures sont critiques. Étape 1 : isolez les systèmes compromis du réseau (ne les éteignez pas). Étape 2 : contactez immédiatement notre cellule de crise au +33 7 69 32 30 19 (24/7). Étape 3 : ne payez jamais de rançon. Étape 4 : préservez toutes les preuves numériques. Nous prenons en charge la suite : analyse forensique, restauration, notification aux autorités (ANSSI, CNIL) et plan de reprise d'activité.",
   },
   {
     category: "risques",
