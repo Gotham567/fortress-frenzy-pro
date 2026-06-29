@@ -411,7 +411,6 @@ const App = () => (
             <Route path="/cybersecurite-yvelines" element={<CyberSecuriteYvelines />} />
             <Route path="/cybersecurite-vendee" element={<CyberSecuriteVendee />} />
             <Route path="/cybersecurite-haut-rhin" element={<CyberSecuriteHautRhin />} />
-            <Route path="/cybersecurite-pas-de-calais" element={<CyberSecuritePasDeCalais />} />
             <Route path="/cybersecurite-cote-dor" element={<CyberSecuriteCoteDor />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
