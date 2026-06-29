@@ -8,8 +8,8 @@ const navItems = [
   { label: "Conformité NIS2", href: "#conformite" },
   { label: "Expertise", href: "#expertise" },
   { label: "Actualités", href: "/actualites" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "FAQ", href: "/faq" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const Navbar = () => {

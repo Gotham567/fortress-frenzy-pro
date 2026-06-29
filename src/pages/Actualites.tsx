@@ -6,6 +6,125 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const articles = [
   {
+    slug: "sanctions-nis2-amendes-dirigeants",
+    title: "Sanctions NIS2 : amendes, responsabilité des dirigeants et mécanismes d'application",
+    excerpt: "Amendes NIS2 jusqu'à 10 M€ ou 2% du CA mondial. Responsabilité personnelle des dirigeants (article 20), pouvoirs ANSSI et comparaison avec les sanctions RGPD.",
+    date: "29 juin 2026",
+    readTime: "11 min",
+    tag: "NIS2 Sanctions",
+  },
+  {
+    slug: "cartographie-si-nis2-methode-anssi",
+    title: "Cartographie du SI pour NIS2 : identifier et protéger vos systèmes critiques",
+    excerpt: "Méthodologie ANSSI pour cartographier votre SI : inventaire des actifs, flux de données, dépendances fournisseurs, classification par criticité et outils recommandés.",
+    date: "29 juin 2026",
+    readTime: "12 min",
+    tag: "NIS2 SI",
+  },
+  {
+    slug: "notification-incident-nis2-24h-72h",
+    title: "Notification d'incident NIS2 : procédure alerte 24h, rapport 72h et rapport final",
+    excerpt: "Triple reporting NIS2 : alerte précoce 24h, notification complète 72h, rapport final 1 mois. Seuils de déclenchement, plateforme MonEspaceNIS2 et sanctions.",
+    date: "29 juin 2026",
+    readTime: "10 min",
+    tag: "Gestion incidents",
+  },
+  {
+    slug: "responsabilite-dirigeants-cybersecurite-nis2-rgpd",
+    title: "Responsabilité des dirigeants en cybersécurité : NIS2, RGPD et obligations légales 2026",
+    excerpt: "NIS2 article 20 : responsabilité personnelle des dirigeants, obligation de formation, Code pénal, assurance D&O et bonnes pratiques de gouvernance cyber.",
+    date: "29 juin 2026",
+    readTime: "13 min",
+    tag: "Gouvernance",
+  },
+  {
+    slug: "evaluation-risque-fournisseurs-nis2-supply-chain",
+    title: "Évaluer les risques cyber de vos fournisseurs NIS2 : questionnaire et méthode",
+    excerpt: "Sécurité de la chaîne d'approvisionnement NIS2 : cartographie des fournisseurs critiques, questionnaire d'évaluation, clauses contractuelles et gestion des accès tiers.",
+    date: "29 juin 2026",
+    readTime: "12 min",
+    tag: "Supply chain",
+  },
+  {
+    slug: "nis2-enseignement-superieur-universites",
+    title: "NIS2 et enseignement supérieur : universités et établissements concernés en 2026",
+    excerpt: "Universités, grandes écoles et CROUS face à NIS2 : quels établissements sont concernés, spécificités du SI académique, programme CaRE ANSSI et priorités pratiques.",
+    date: "29 juin 2026",
+    readTime: "11 min",
+    tag: "NIS2 Éducation",
+  },
+  {
+    slug: "tests-securite-nis2-pentest-frequence",
+    title: "Tests de sécurité NIS2 : pentest, scan de vulnérabilités et fréquence obligatoire",
+    excerpt: "NIS2 impose des tests réguliers : pentest annuel, scan mensuel, phishing simulé. Prestataires qualifiés PASSI, fréquences par criticité et intégration dans la PSSI.",
+    date: "29 juin 2026",
+    readTime: "10 min",
+    tag: "Tests sécurité",
+  },
+  {
+    slug: "cybersecurite-collectivites-territoriales-mairies",
+    title: "Cybersécurité des collectivités territoriales : mairies, régions et obligations NIS2",
+    excerpt:
+      "Obligations cybersécurité des collectivités territoriales sous NIS2 2026 : communes, intercommunalités, régions, OPSN — programme CaRE ANSSI, budget, Mon Aide Cyber, et stratégie de mise en conformité.",
+    date: "28 juin 2026",
+    readTime: "10 min",
+    tag: "Collectivités",
+  },
+  {
+    slug: "nis2-secteur-bancaire-fintech",
+    title: "NIS2 et secteur bancaire : banques, fintech et assurances face aux obligations 2026",
+    excerpt:
+      "NIS2 dans le secteur financier : banques, néo-banques, fintech, assurances — cumul avec DORA, obligations spécifiques TLPT, délais de notification des incidents et stratégie de conformité.",
+    date: "28 juin 2026",
+    readTime: "12 min",
+    tag: "NIS2 Banque",
+  },
+  {
+    slug: "transposition-nis2-france-calendrier-obligations",
+    title: "Transposition de NIS2 en France : calendrier, textes et obligations effectives",
+    excerpt:
+      "État de la transposition française de NIS2 : loi de transposition, décrets ANSSI, calendrier d'entrée en vigueur par secteur, enregistrement sur MonEspaceNIS2 et premières obligations concrètes en 2026.",
+    date: "28 juin 2026",
+    readTime: "11 min",
+    tag: "NIS2 France",
+  },
+  {
+    slug: "registre-traitements-rgpd-pme-comment-faire",
+    title: "Registre des traitements RGPD pour les PME : comment le créer et le tenir à jour",
+    excerpt:
+      "Guide pratique pour créer votre registre des traitements RGPD (article 30) : mentions obligatoires, durées de conservation par type de données, 7 erreurs fréquentes et modèle pour PME.",
+    date: "28 juin 2026",
+    readTime: "12 min",
+    tag: "RGPD PME",
+  },
+  {
+    slug: "nis2-secteur-industriel-fabricants-obligations",
+    title: "NIS2 et secteur industriel : entités concernées, obligations OT/IT et mise en conformité",
+    excerpt:
+      "Guide NIS2 pour l'industrie : fabricants concernés, obligations de sécurité IT/OT, gestion des systèmes industriels (ICS/SCADA), chaîne d'approvisionnement et calendrier de mise en conformité.",
+    date: "28 juin 2026",
+    readTime: "14 min",
+    tag: "NIS2 Industrie",
+  },
+  {
+    slug: "politique-mots-de-passe-entreprise-cnil-anssi",
+    title: "Politique de mots de passe en entreprise : exigences CNIL, ANSSI et bonnes pratiques 2026",
+    excerpt:
+      "Recommandations CNIL et ANSSI sur les mots de passe : longueur minimale par contexte, abandon de l'expiration systématique, MFA obligatoire, stockage (bcrypt/Argon2), gestionnaires d'entreprise et audit.",
+    date: "28 juin 2026",
+    readTime: "11 min",
+    tag: "Bonnes pratiques",
+  },
+  {
+    slug: "aipd-analyse-impact-protection-donnees-rgpd",
+    title: "AIPD (analyse d'impact RGPD) : quand est-elle obligatoire et comment la réaliser ?",
+    excerpt:
+      "Guide complet sur l'Analyse d'Impact relative à la Protection des Données (AIPD/PIA) : traitements concernés, liste CNIL des 11 cas obligatoires, méthodologie en 4 étapes et outil PIA CNIL.",
+    date: "28 juin 2026",
+    readTime: "13 min",
+    tag: "RGPD pratique",
+  },
+  {
     slug: "sanctions-cnil-rgpd-bilan-2025-2026",
     title: "Sanctions CNIL 2025-2026 : bilans, montants et secteurs les plus touchés",
     excerpt:
@@ -364,6 +483,42 @@ const articles = [
     date: "5 mars 2026",
     readTime: "14 min",
     tag: "Réglementation",
+  },
+  {
+    slug: "questions-poser-avant-audit-cybersecurite",
+    title: "20 questions à poser avant un audit cybersécurité (et ce que les réponses révèlent)",
+    excerpt:
+      "Qualifications, méthodologie, livrables, cadre légal, assurance, prix : 20 questions indispensables pour évaluer un prestataire d'audit cybersécurité avant de signer. Ce que chaque réponse révèle sur la qualité de la prestation.",
+    date: "28 juin 2026",
+    readTime: "12 min",
+    tag: "Guide achat",
+  },
+  {
+    slug: "rapport-audit-cybersecurite-contenu",
+    title: "Rapport d'audit cybersécurité : que contient-il et comment le lire ?",
+    excerpt:
+      "Structure d'un rapport de qualité : résumé exécutif, fiches de vulnérabilité CVSS, preuves, recommandations de remédiation. Comment exploiter les résultats et distinguer un bon rapport d'un mauvais.",
+    date: "28 juin 2026",
+    readTime: "11 min",
+    tag: "Guide pratique",
+  },
+  {
+    slug: "duree-audit-cybersecurite-combien-de-temps",
+    title: "Combien de temps dure un audit cybersécurité ? Durées par type d'audit",
+    excerpt:
+      "Durée d'un pentest externe, interne, d'un audit applicatif, organisationnel ou cloud. Phases de la mission, facteurs qui allongent ou accélèrent l'audit et conseils pour planifier sans perturber votre activité.",
+    date: "28 juin 2026",
+    readTime: "9 min",
+    tag: "Guide pratique",
+  },
+  {
+    slug: "cybersecurite-pme-sous-traitante-industrie",
+    title: "Cybersécurité PME sous-traitante industrielle : NIS2, exigences et conformité",
+    excerpt:
+      "NIS2 vous impacte même si vous êtes en dessous des seuils. Guide complet pour les sous-traitants industriels : exigences des grands comptes, questionnaires TISAX, audits fournisseurs et plan de conformité.",
+    date: "28 juin 2026",
+    readTime: "13 min",
+    tag: "Sous-traitance",
   },
 ];
 const Actualites = () => {

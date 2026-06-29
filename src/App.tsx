@@ -9,6 +9,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 // Pages
 const Index = lazy(() => import("./pages/Index.tsx"));
 const Actualites = lazy(() => import("./pages/Actualites.tsx"));
+const Contact = lazy(() => import("./pages/Contact.tsx"));
+const FAQ = lazy(() => import("./pages/FAQ.tsx"));
 const MentionsLegales = lazy(() => import("./pages/MentionsLegales.tsx"));
 const PolitiqueConfidentialite = lazy(() => import("./pages/PolitiqueConfidentialite.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
@@ -54,6 +56,24 @@ const ViolationDonneesNotification = lazy(() => import("./pages/articles/Violati
 const PssiGuide = lazy(() => import("./pages/articles/PssiGuide.tsx"));
 const DpoObligations = lazy(() => import("./pages/articles/DpoObligations.tsx"));
 const Nis2Transport = lazy(() => import("./pages/articles/Nis2Transport.tsx"));
+const QuestionsAuditCybersecurite = lazy(() => import("./pages/articles/QuestionsAuditCybersecurite.tsx"));
+const RapportAuditContenu = lazy(() => import("./pages/articles/RapportAuditContenu.tsx"));
+const DureeAuditCybersecurite = lazy(() => import("./pages/articles/DureeAuditCybersecurite.tsx"));
+const CyberPMESousTraitante = lazy(() => import("./pages/articles/CyberPMESousTraitante.tsx"));
+const AipdRgpdObligatoire = lazy(() => import("./pages/articles/AipdRgpdObligatoire.tsx"));
+const PolitiqueMdpEntreprise = lazy(() => import("./pages/articles/PolitiqueMdpEntreprise.tsx"));
+const Nis2SecteurIndustriel = lazy(() => import("./pages/articles/Nis2SecteurIndustriel.tsx"));
+const RegistreTraitementsRgpdPme = lazy(() => import("./pages/articles/RegistreTraitementsRgpdPme.tsx"));
+const Nis2TranspositionFrance = lazy(() => import("./pages/articles/Nis2TranspositionFrance.tsx"));
+const Nis2SecteurBancaire = lazy(() => import("./pages/articles/Nis2SecteurBancaire.tsx"));
+const CybersecuriteCollectivites = lazy(() => import("./pages/articles/CybersecuriteCollectivites.tsx"));
+const Nis2PenalitesSanctions = lazy(() => import("./pages/articles/Nis2PenalitesSanctions.tsx"));
+const CartographieSiNis2 = lazy(() => import("./pages/articles/CartographieSiNis2.tsx"));
+const NotificationIncident72h = lazy(() => import("./pages/articles/NotificationIncident72h.tsx"));
+const GouvernanceCyberDirigeants = lazy(() => import("./pages/articles/GouvernanceCyberDirigeants.tsx"));
+const EvaluationRisqueFournisseurs = lazy(() => import("./pages/articles/EvaluationRisqueFournisseurs.tsx"));
+const Nis2SecteurEducation = lazy(() => import("./pages/articles/Nis2SecteurEducation.tsx"));
+const Nis2TestsSecurite = lazy(() => import("./pages/articles/Nis2TestsSecurite.tsx"));
 
 // Cities
 const CyberSecuriteParis = lazy(() => import("./pages/cities/CyberSecuriteParis.tsx"));
@@ -148,6 +168,44 @@ const CyberSecuriteQuebec = lazy(() => import("./pages/cities/CyberSecuriteQuebe
 const CyberSecuriteGatineau = lazy(() => import("./pages/cities/CyberSecuriteGatineau.tsx"));
 const CyberSecuriteSherbrooke = lazy(() => import("./pages/cities/CyberSecuriteSherbrooke.tsx"));
 const CyberSecuriteMonaco = lazy(() => import("./pages/cities/CyberSecuriteMonaco.tsx"));
+const CyberSecuriteBethune = lazy(() => import("./pages/cities/CyberSecuriteBethune.tsx"));
+const CyberSecuriteLens = lazy(() => import("./pages/cities/CyberSecuriteLens.tsx"));
+const CyberSecuritePasDeCalais = lazy(() => import("./pages/cities/CyberSecuritePasDeCalais.tsx"));
+const CyberSecuriteIleDeFrance = lazy(() => import("./pages/cities/CyberSecuriteIleDeFrance.tsx"));
+const CyberSecuriteBretagne = lazy(() => import("./pages/cities/CyberSecuriteBretagne.tsx"));
+const CyberSecuriteNouvelleAquitaine = lazy(() => import("./pages/cities/CyberSecuriteNouvelleAquitaine.tsx"));
+const CyberSecuriteOccitanie = lazy(() => import("./pages/cities/CyberSecuriteOccitanie.tsx"));
+const CyberSecuriteNormandie = lazy(() => import("./pages/cities/CyberSecuriteNormandie.tsx"));
+const CyberSecuriteGrandEst = lazy(() => import("./pages/cities/CyberSecuriteGrandEst.tsx"));
+const CyberSecuriteAuvergneRhoneAlpes = lazy(() => import("./pages/cities/CyberSecuriteAuvergneRhoneAlpes.tsx"));
+const CyberSecuritePaca = lazy(() => import("./pages/cities/CyberSecuritePaca.tsx"));
+const CyberSecuritePaysDeLaLoire = lazy(() => import("./pages/cities/CyberSecuritePaysDeLaLoire.tsx"));
+const CyberSecuriteCentreValDeLoire = lazy(() => import("./pages/cities/CyberSecuriteCentreValDeLoire.tsx"));
+const CyberSecuriteBourgogneFrancheComte = lazy(() => import("./pages/cities/CyberSecuriteBourgogneFrancheComte.tsx"));
+const CyberSecuriteGironde = lazy(() => import("./pages/cities/CyberSecuriteGironde.tsx"));
+const CyberSecuriteIlleEtVilaine = lazy(() => import("./pages/cities/CyberSecuriteIlleEtVilaine.tsx"));
+const CyberSecuriteRhone = lazy(() => import("./pages/cities/CyberSecuriteRhone.tsx"));
+const CyberSecuriteNord = lazy(() => import("./pages/cities/CyberSecuriteNord.tsx"));
+const CyberSecuriteHerault = lazy(() => import("./pages/cities/CyberSecuriteHerault.tsx"));
+const CyberSecuriteIsere = lazy(() => import("./pages/cities/CyberSecuriteIsere.tsx"));
+const CyberSecuriteHauteGaronne = lazy(() => import("./pages/cities/CyberSecuriteHauteGaronne.tsx"));
+const CyberSecuriteBouchesduRhone = lazy(() => import("./pages/cities/CyberSecuriteBouchesduRhone.tsx"));
+const CyberSecuriteLoireAtlantique = lazy(() => import("./pages/cities/CyberSecuriteLoireAtlantique.tsx"));
+const CyberSecuriteMoselle = lazy(() => import("./pages/cities/CyberSecuriteMoselle.tsx"));
+const CyberSecuriteSeineMaritime = lazy(() => import("./pages/cities/CyberSecuriteSeineMaritime.tsx"));
+const CyberSecuriteBasRhin = lazy(() => import("./pages/cities/CyberSecuriteBasRhin.tsx"));
+const CyberSecuriteAlpesMaritimes = lazy(() => import("./pages/cities/CyberSecuriteAlpesMaritimes.tsx"));
+const CyberSecuriteVar = lazy(() => import("./pages/cities/CyberSecuriteVar.tsx"));
+const CyberSecuriteFinistere = lazy(() => import("./pages/cities/CyberSecuriteFinistere.tsx"));
+const CyberSecuritePuyDeDome = lazy(() => import("./pages/cities/CyberSecuritePuyDeDome.tsx"));
+const CyberSecuriteDoubs = lazy(() => import("./pages/cities/CyberSecuriteDoubs.tsx"));
+const CyberSecuriteMeurtheEtMoselle = lazy(() => import("./pages/cities/CyberSecuriteMeurtheEtMoselle.tsx"));
+const CyberSecuriteMaineEtLoire = lazy(() => import("./pages/cities/CyberSecuriteMaineEtLoire.tsx"));
+const CyberSecuriteYvelines = lazy(() => import("./pages/cities/CyberSecuriteYvelines.tsx"));
+const CyberSecuriteVendee = lazy(() => import("./pages/cities/CyberSecuriteVendee.tsx"));
+const CyberSecuriteHautRhin = lazy(() => import("./pages/cities/CyberSecuriteHautRhin.tsx"));
+const CyberSecuritePasDeCalais = lazy(() => import("./pages/cities/CyberSecuritePasDeCalais.tsx"));
+const CyberSecuriteCoteDor = lazy(() => import("./pages/cities/CyberSecuriteCoteDor.tsx"));
 
 const queryClient = new QueryClient();
 
@@ -162,6 +220,8 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/actualites" element={<Actualites />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/faq" element={<FAQ />} />
             <Route path="/actualites/directive-nis2" element={<DirectiveNis2 />} />
             <Route path="/actualites/mise-en-conformite-nis2-guide-pme" element={<MiseEnConformiteNis2 />} />
             <Route path="/actualites/audit-rgpd-entreprises" element={<AuditRgpd />} />
@@ -202,6 +262,25 @@ const App = () => (
             <Route path="/actualites/pssi-politique-securite-si-guide-pme" element={<PssiGuide />} />
             <Route path="/actualites/dpo-externalise-missions-obligations-rgpd" element={<DpoObligations />} />
             <Route path="/actualites/nis2-secteur-transport-logistique-obligations" element={<Nis2Transport />} />
+            <Route path="/actualites/questions-poser-avant-audit-cybersecurite" element={<QuestionsAuditCybersecurite />} />
+            <Route path="/actualites/rapport-audit-cybersecurite-contenu" element={<RapportAuditContenu />} />
+            <Route path="/actualites/duree-audit-cybersecurite-combien-de-temps" element={<DureeAuditCybersecurite />} />
+            <Route path="/actualites/cybersecurite-pme-sous-traitante-industrie" element={<CyberPMESousTraitante />} />
+            <Route path="/actualites/aipd-analyse-impact-protection-donnees-rgpd" element={<AipdRgpdObligatoire />} />
+            <Route path="/actualites/politique-mots-de-passe-entreprise-cnil-anssi" element={<PolitiqueMdpEntreprise />} />
+            <Route path="/actualites/nis2-secteur-industriel-fabricants-obligations" element={<Nis2SecteurIndustriel />} />
+            <Route path="/actualites/registre-traitements-rgpd-pme-comment-faire" element={<RegistreTraitementsRgpdPme />} />
+            <Route path="/actualites/transposition-nis2-france-calendrier-obligations" element={<Nis2TranspositionFrance />} />
+            <Route path="/actualites/nis2-secteur-bancaire-fintech" element={<Nis2SecteurBancaire />} />
+            <Route path="/actualites/cybersecurite-collectivites-territoriales-mairies" element={<CybersecuriteCollectivites />} />
+            <Route path="/actualites/cybersecurite-collectivites-territoriales-mairies" element={<CybersecuriteCollectivites />} />
+            <Route path="/actualites/sanctions-nis2-amendes-dirigeants" element={<Nis2PenalitesSanctions />} />
+            <Route path="/actualites/cartographie-si-nis2-methode-anssi" element={<CartographieSiNis2 />} />
+            <Route path="/actualites/notification-incident-nis2-24h-72h" element={<NotificationIncident72h />} />
+            <Route path="/actualites/responsabilite-dirigeants-cybersecurite-nis2-rgpd" element={<GouvernanceCyberDirigeants />} />
+            <Route path="/actualites/evaluation-risque-fournisseurs-nis2-supply-chain" element={<EvaluationRisqueFournisseurs />} />
+            <Route path="/actualites/nis2-enseignement-superieur-universites" element={<Nis2SecteurEducation />} />
+            <Route path="/actualites/tests-securite-nis2-pentest-frequence" element={<Nis2TestsSecurite />} />
             <Route path="/mentions-legales" element={<MentionsLegales />} />
             <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
             {/* Cities */}
@@ -297,6 +376,44 @@ const App = () => (
             <Route path="/cybersecurite-gatineau" element={<CyberSecuriteGatineau />} />
             <Route path="/cybersecurite-sherbrooke" element={<CyberSecuriteSherbrooke />} />
             <Route path="/cybersecurite-monaco" element={<CyberSecuriteMonaco />} />
+            <Route path="/cybersecurite-bethune" element={<CyberSecuriteBethune />} />
+            <Route path="/cybersecurite-lens" element={<CyberSecuriteLens />} />
+            <Route path="/cybersecurite-pas-de-calais" element={<CyberSecuritePasDeCalais />} />
+            <Route path="/cybersecurite-ile-de-france" element={<CyberSecuriteIleDeFrance />} />
+            <Route path="/cybersecurite-bretagne" element={<CyberSecuriteBretagne />} />
+            <Route path="/cybersecurite-nouvelle-aquitaine" element={<CyberSecuriteNouvelleAquitaine />} />
+            <Route path="/cybersecurite-occitanie" element={<CyberSecuriteOccitanie />} />
+            <Route path="/cybersecurite-normandie" element={<CyberSecuriteNormandie />} />
+            <Route path="/cybersecurite-grand-est" element={<CyberSecuriteGrandEst />} />
+            <Route path="/cybersecurite-auvergne-rhone-alpes" element={<CyberSecuriteAuvergneRhoneAlpes />} />
+            <Route path="/cybersecurite-paca" element={<CyberSecuritePaca />} />
+            <Route path="/cybersecurite-pays-de-la-loire" element={<CyberSecuritePaysDeLaLoire />} />
+            <Route path="/cybersecurite-centre-val-de-loire" element={<CyberSecuriteCentreValDeLoire />} />
+            <Route path="/cybersecurite-bourgogne-franche-comte" element={<CyberSecuriteBourgogneFrancheComte />} />
+            <Route path="/cybersecurite-gironde" element={<CyberSecuriteGironde />} />
+            <Route path="/cybersecurite-ille-et-vilaine" element={<CyberSecuriteIlleEtVilaine />} />
+            <Route path="/cybersecurite-rhone" element={<CyberSecuriteRhone />} />
+            <Route path="/cybersecurite-nord" element={<CyberSecuriteNord />} />
+            <Route path="/cybersecurite-herault" element={<CyberSecuriteHerault />} />
+            <Route path="/cybersecurite-isere" element={<CyberSecuriteIsere />} />
+            <Route path="/cybersecurite-haute-garonne" element={<CyberSecuriteHauteGaronne />} />
+            <Route path="/cybersecurite-bouches-du-rhone" element={<CyberSecuriteBouchesduRhone />} />
+            <Route path="/cybersecurite-loire-atlantique" element={<CyberSecuriteLoireAtlantique />} />
+            <Route path="/cybersecurite-moselle" element={<CyberSecuriteMoselle />} />
+            <Route path="/cybersecurite-seine-maritime" element={<CyberSecuriteSeineMaritime />} />
+            <Route path="/cybersecurite-bas-rhin" element={<CyberSecuriteBasRhin />} />
+            <Route path="/cybersecurite-alpes-maritimes" element={<CyberSecuriteAlpesMaritimes />} />
+            <Route path="/cybersecurite-var" element={<CyberSecuriteVar />} />
+            <Route path="/cybersecurite-finistere" element={<CyberSecuriteFinistere />} />
+            <Route path="/cybersecurite-puy-de-dome" element={<CyberSecuritePuyDeDome />} />
+            <Route path="/cybersecurite-doubs" element={<CyberSecuriteDoubs />} />
+            <Route path="/cybersecurite-meurthe-et-moselle" element={<CyberSecuriteMeurtheEtMoselle />} />
+            <Route path="/cybersecurite-maine-et-loire" element={<CyberSecuriteMaineEtLoire />} />
+            <Route path="/cybersecurite-yvelines" element={<CyberSecuriteYvelines />} />
+            <Route path="/cybersecurite-vendee" element={<CyberSecuriteVendee />} />
+            <Route path="/cybersecurite-haut-rhin" element={<CyberSecuriteHautRhin />} />
+            <Route path="/cybersecurite-pas-de-calais" element={<CyberSecuritePasDeCalais />} />
+            <Route path="/cybersecurite-cote-dor" element={<CyberSecuriteCoteDor />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
