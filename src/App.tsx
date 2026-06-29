@@ -204,7 +204,6 @@ const CyberSecuriteMaineEtLoire = lazy(() => import("./pages/cities/CyberSecurit
 const CyberSecuriteYvelines = lazy(() => import("./pages/cities/CyberSecuriteYvelines.tsx"));
 const CyberSecuriteVendee = lazy(() => import("./pages/cities/CyberSecuriteVendee.tsx"));
 const CyberSecuriteHautRhin = lazy(() => import("./pages/cities/CyberSecuriteHautRhin.tsx"));
-const CyberSecuritePasDeCalais = lazy(() => import("./pages/cities/CyberSecuritePasDeCalais.tsx"));
 const CyberSecuriteCoteDor = lazy(() => import("./pages/cities/CyberSecuriteCoteDor.tsx"));
 
 const queryClient = new QueryClient();
@@ -412,7 +411,6 @@ const App = () => (
             <Route path="/cybersecurite-yvelines" element={<CyberSecuriteYvelines />} />
             <Route path="/cybersecurite-vendee" element={<CyberSecuriteVendee />} />
             <Route path="/cybersecurite-haut-rhin" element={<CyberSecuriteHautRhin />} />
-            <Route path="/cybersecurite-pas-de-calais" element={<CyberSecuritePasDeCalais />} />
             <Route path="/cybersecurite-cote-dor" element={<CyberSecuriteCoteDor />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
