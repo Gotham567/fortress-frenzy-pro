@@ -20,6 +20,8 @@ const HeroSection = () => {
           aria-hidden="true"
           className="h-full w-full object-cover opacity-40"
           loading="eager"
+          fetchPriority="high"
+          decoding="sync"
           width={1920}
           height={1080}
         />

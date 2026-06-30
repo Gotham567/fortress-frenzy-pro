@@ -10,14 +10,17 @@ interface ArticleLayoutProps {
   description: string;
   date: string;
   dateISO: string;
+  dateModifiedISO?: string;
   readTime: string;
   tag: string;
   slug: string;
   children: React.ReactNode;
 }
 
-const ArticleLayout = ({ title, description, date, dateISO, readTime, tag, slug, children }: ArticleLayoutProps) => {
+const ArticleLayout = ({ title, description, date, dateISO, dateModifiedISO, readTime, tag, slug, children }: ArticleLayoutProps) => {
   const url = `https://cyberconform.fr/actualites/${slug}`;
+  const ogImage = "https://cyberconform.fr/og-image.png";
+  const modifiedDate = dateModifiedISO || dateISO;
 
   return (
     <>
@@ -31,31 +34,86 @@ const ArticleLayout = ({ title, description, date, dateISO, readTime, tag, slug,
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="CyberConform" />
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={`${title} — CyberConform`} />
+        <meta property="article:published_time" content={dateISO} />
+        <meta property="article:modified_time" content={modifiedDate} />
+        <meta property="article:author" content="CyberConform" />
+        <meta property="article:section" content="Cybersécurité" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${title} — CyberConform`} />
         <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={ogImage} />
+        <meta name="twitter:image:alt" content={`${title} — CyberConform`} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
+            "@id": url,
             headline: title,
             description: description,
+            image: {
+              "@type": "ImageObject",
+              url: ogImage,
+              width: 1200,
+              height: 630,
+            },
             datePublished: dateISO,
-            dateModified: dateISO,
+            dateModified: modifiedDate,
             author: {
-              "@type": "Organization",
-              name: "CyberConform",
+              "@type": "Person",
+              name: "Équipe CyberConform",
               url: "https://cyberconform.fr",
             },
             publisher: {
               "@type": "Organization",
               name: "CyberConform",
               url: "https://cyberconform.fr",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://cyberconform.fr/favicon.png",
+                width: 60,
+                height: 60,
+              },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id": url,
             },
+            inLanguage: "fr-FR",
+            isPartOf: {
+              "@type": "WebSite",
+              name: "CyberConform",
+              url: "https://cyberconform.fr",
+            },
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Accueil",
+                item: "https://cyberconform.fr/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Actualités",
+                item: "https://cyberconform.fr/actualites",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: title,
+                item: url,
+              },
+            ],
           })}
         </script>
       </Helmet>

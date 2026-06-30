@@ -2,4 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
+# Sitemap index (référence les deux sous-sitemaps)
 Sitemap: https://cyberconform.fr/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1

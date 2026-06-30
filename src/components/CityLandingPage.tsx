@@ -40,27 +40,56 @@ const CityLandingPage = ({ data }: Props) => {
     name: `CyberConform ${data.city}`,
     description,
     url,
-    telephone: "+33142685300",
+    telephone: "+33769323019",
     email: "contact@cyberconform.fr",
-    areaServed: {
-      "@type": "City",
-      name: data.city,
-    },
+    image: "https://cyberconform.fr/og-image.png",
+    logo: "https://cyberconform.fr/favicon.png",
+    sameAs: ["https://cyberconform.fr"],
+    areaServed: [
+      {
+        "@type": "City",
+        name: data.city,
+      },
+      {
+        "@type": "AdministrativeArea",
+        name: data.region,
+      },
+    ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: data.city,
-      postalCode: data.postalCode,
-      addressRegion: data.region,
+      streetAddress: "75 Avenue des Champs-Élysées",
+      addressLocality: "Paris",
+      postalCode: "75008",
+      addressRegion: "Île-de-France",
       addressCountry: "FR",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "48.8716",
+      longitude: "2.3075",
+    },
     priceRange: "€€€",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
     serviceType: [
       "Audit cybersécurité",
       "Conformité NIS2",
       "Conformité RGPD",
       "Test d'intrusion",
       "RSSI externalisé",
+      "Réponse à incident",
     ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+33769323019",
+      contactType: "customer service",
+      availableLanguage: "French",
+      areaServed: "FR",
+    },
   };
 
   const faqSchema = {
@@ -93,13 +122,16 @@ const CityLandingPage = ({ data }: Props) => {
         <meta property="og:url" content={url} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="CyberConform" />
         <meta property="og:image" content="https://cyberconform.fr/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={`Cybersécurité ${data.city} — CyberConform, cabinet NIS2 et RGPD`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content="https://cyberconform.fr/og-image.png" />
+        <meta name="twitter:image:alt" content={`Cybersécurité ${data.city} — CyberConform`} />
         <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

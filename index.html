@@ -29,6 +29,8 @@
     <meta property="og:site_name" content="CyberConform" />
 
     <meta property="og:image:alt" content="CyberConform — Cabinet de cybersécurité Paris, conformité NIS2 et RGPD" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -36,6 +38,26 @@
     <meta name="twitter:description" content="Mise en conformité NIS2 et RGPD pour PME et ETI. Diagnostic gratuit." />
     <meta name="twitter:image" content="https://cyberconform.fr/og-image.png" />
     <meta name="twitter:image:alt" content="CyberConform — Cabinet de cybersécurité Paris, conformité NIS2 et RGPD" />
+
+    <!-- WebSite JSON-LD with SearchAction (Sitelinks Searchbox) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "CyberConform",
+      "url": "https://cyberconform.fr",
+      "description": "Cabinet de cybersécurité à Paris spécialisé en conformité NIS2 et RGPD pour PME et ETI.",
+      "inLanguage": "fr-FR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://cyberconform.fr/actualites?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -46,8 +68,13 @@
       "description": "Cabinet français spécialisé en cybersécurité : tests d'intrusion, audits de sécurité, conseil stratégique et réponse aux incidents pour les entreprises.",
       "url": "https://cyberconform.fr",
       "image": "https://cyberconform.fr/og-image.png",
-      "logo": "https://cyberconform.fr/favicon.png",
-      "telephone": "+33142685300",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cyberconform.fr/favicon.png",
+        "width": 60,
+        "height": 60
+      },
+      "telephone": "+33769323019",
       "email": "contact@cyberconform.fr",
       "address": {
         "@type": "PostalAddress",
@@ -71,6 +98,11 @@
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
         "opens": "09:00",
         "closes": "18:00"
+      },
+      "foundingDate": "2020",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 15
       },
       "sameAs": [],
       "hasOfferCatalog": {
@@ -162,12 +194,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://calendly.com" />
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" href="/og-image.png" fetchpriority="high" />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
   <link rel="alternate" hreflang="fr" href="https://cyberconform.fr/" />
   <link rel="alternate" hreflang="x-default" href="https://cyberconform.fr/" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <!-- DNS prefetch for analytics -->
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 </head>
 
   <body>

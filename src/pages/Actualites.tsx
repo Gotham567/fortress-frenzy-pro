@@ -531,6 +531,42 @@ const Actualites = () => {
           content="Articles experts sur la cybersécurité, la conformité NIS2 et le RGPD. Guides pratiques pour les PME : directive NIS2, audit RGPD, mise en conformité."
         />
         <link rel="canonical" href="https://cyberconform.fr/actualites" />
+        <meta property="og:title" content="Actualités cybersécurité & conformité NIS2 RGPD — CyberConform" />
+        <meta property="og:description" content="Articles experts sur la cybersécurité, la conformité NIS2 et le RGPD. Guides pratiques pour les PME : directive NIS2, audit RGPD, mise en conformité." />
+        <meta property="og:url" content="https://cyberconform.fr/actualites" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="CyberConform" />
+        <meta property="og:image" content="https://cyberconform.fr/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Actualités cybersécurité NIS2 et RGPD — CyberConform" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Actualités cybersécurité & conformité NIS2 RGPD — CyberConform" />
+        <meta name="twitter:description" content="Articles experts sur la cybersécurité, la conformité NIS2 et le RGPD pour PME." />
+        <meta name="twitter:image" content="https://cyberconform.fr/og-image.png" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Actualités cybersécurité NIS2 et RGPD — CyberConform",
+            "url": "https://cyberconform.fr/actualites",
+            "description": "Articles experts sur la cybersécurité, la conformité NIS2 et le RGPD pour PME et ETI.",
+            "inLanguage": "fr-FR",
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "CyberConform",
+              "url": "https://cyberconform.fr"
+            },
+            "breadcrumb": {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://cyberconform.fr/" },
+                { "@type": "ListItem", "position": 2, "name": "Actualités", "item": "https://cyberconform.fr/actualites" }
+              ]
+            }
+          })}
+        </script>
       </Helmet>
       <div className="min-h-screen bg-background">
         <Navbar />

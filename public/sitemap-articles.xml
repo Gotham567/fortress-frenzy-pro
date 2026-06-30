@@ -1,201 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Articles récents (juin 2026) -->
+  <url>
+    <loc>https://cyberconform.fr/actualites/sanctions-nis2-amendes-dirigeants</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/cartographie-si-nis2-methode-anssi</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/notification-incident-nis2-24h-72h</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/responsabilite-dirigeants-cybersecurite-nis2-rgpd</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/evaluation-risque-fournisseurs-nis2-supply-chain</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/nis2-enseignement-superieur-universites</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/tests-securite-nis2-pentest-frequence</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Articles ajoutés juin 2026 (partie 2) -->
+  <url>
+    <loc>https://cyberconform.fr/actualites/aipd-analyse-impact-protection-donnees-rgpd</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/politique-mots-de-passe-entreprise-cnil-anssi</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/nis2-secteur-industriel-fabricants-obligations</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/registre-traitements-rgpd-pme-comment-faire</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/transposition-nis2-france-calendrier-obligations</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/nis2-secteur-bancaire-fintech</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/cybersecurite-collectivites-territoriales-mairies</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/cybersecurite-pme-sous-traitante-industrie</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/questions-poser-avant-audit-cybersecurite</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/rapport-audit-cybersecurite-contenu</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/duree-audit-cybersecurite-combien-de-temps</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/dpo-externalise-missions-obligations-rgpd</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/pssi-politique-securite-si-guide-pme</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/nis2-secteur-transport-logistique-obligations</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/nis2-sous-traitants-supply-chain-obligations</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/violation-donnees-notification-cnil-72h</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/registre-traitements-rgpd-modele-guide</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cyberconform.fr/actualites/sanctions-cnil-rgpd-bilan-2025-2026</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Articles juin 2026 (partie 1) -->
   <url>
     <loc>https://cyberconform.fr/actualites/budget-cybersecurite-pme-2026</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/red-team-blue-team-exercice-securite</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/threat-intelligence-cti-entreprise</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/gestion-crise-cyber-plan-communication</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/securite-chaine-approvisionnement-risques-tiers</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+  <!-- Articles mai 2026 -->
   <url>
     <loc>https://cyberconform.fr/actualites/hds-hebergement-donnees-sante-certification</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/iam-gestion-identites-acces-pme</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/securite-microsoft-365-entreprise-guide</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/soc-manage-siem-pme-guide</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/pentest-test-intrusion-guide</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/ia-generative-risques-cybersecurite-entreprise</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/sauvegardes-3-2-1-pra-pca-pme</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+  <!-- Articles avril 2026 -->
   <url>
     <loc>https://cyberconform.fr/actualites/zero-trust-mfa-pme-guide</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/ebios-rm-methode-analyse-risques</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/directive-cer-resilience-entites-critiques</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/cyber-resilience-act-guide</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/cyber-assurance-pme-guide</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/dora-reglementation-secteur-financier</loc>
     <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/iso-27001-certification-guide</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/securite-cloud-pme-guide</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/audit-cybersecurite-entreprise</loc>
     <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/ransomware-pme-protection</loc>
     <lastmod>2026-04-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/phishing-protection-entreprise</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+  <!-- Articles mars 2026 -->
   <url>
     <loc>https://cyberconform.fr/actualites/sensibilisation-cybersecurite-entreprise</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/plan-continuite-activite-cybersecurite</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/rssi-externalise-guide</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/cybersecurite-pme-guide</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/nis2-secteur-sante</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/nis2-secteur-energie</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/directive-nis2</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/mise-en-conformite-nis2-guide-pme</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/audit-rgpd-entreprises</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cyberconform.fr/actualites/nis2-vs-rgpd-differences</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>
