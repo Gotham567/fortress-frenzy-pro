@@ -141,6 +141,7 @@ const FaqSection = () => {
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
+                aria-pressed={isActive}
                 className={`
                   inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium
                   transition-all duration-200 ease-out

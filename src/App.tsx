@@ -215,7 +215,11 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
-        <Suspense fallback={<div className="min-h-screen bg-background" />}>
+        <Suspense fallback={
+          <div className="min-h-screen bg-background flex items-center justify-center">
+            <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin" aria-label="Chargement..." />
+          </div>
+        }>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/actualites" element={<Actualites />} />
@@ -271,7 +275,6 @@ const App = () => (
             <Route path="/actualites/registre-traitements-rgpd-pme-comment-faire" element={<RegistreTraitementsRgpdPme />} />
             <Route path="/actualites/transposition-nis2-france-calendrier-obligations" element={<Nis2TranspositionFrance />} />
             <Route path="/actualites/nis2-secteur-bancaire-fintech" element={<Nis2SecteurBancaire />} />
-            <Route path="/actualites/cybersecurite-collectivites-territoriales-mairies" element={<CybersecuriteCollectivites />} />
             <Route path="/actualites/cybersecurite-collectivites-territoriales-mairies" element={<CybersecuriteCollectivites />} />
             <Route path="/actualites/sanctions-nis2-amendes-dirigeants" element={<Nis2PenalitesSanctions />} />
             <Route path="/actualites/cartographie-si-nis2-methode-anssi" element={<CartographieSiNis2 />} />

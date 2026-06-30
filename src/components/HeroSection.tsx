@@ -16,7 +16,8 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Réseau numérique sécurisé représentant la cybersécurité des systèmes d'information"
+          alt=""
+          aria-hidden="true"
           className="h-full w-full object-cover opacity-40"
           loading="eager"
           width={1920}
